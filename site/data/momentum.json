@@ -7,35 +7,35 @@
   0.8,
   1.2
  ],
- "computed_at": "2026-10-24T18:55:23Z",
- "fetched_at": "2026-10-24T18:55:18Z",
+ "computed_at": "2026-10-24T21:08:30Z",
+ "fetched_at": "2026-10-24T21:08:28Z",
  "jobs_note": "Jobs feed is building history (needs 90+ days of nightly snapshots); not yet in m_c.",
  "sources": {
   "arxiv": {
    "label": "arXiv API",
    "url": "https://export.arxiv.org/api/query",
-   "fetched_at": "2026-10-24T18:34:21Z",
+   "fetched_at": "2026-10-24T20:53:47Z",
    "row_count": 130,
    "unit": "papers submitted per 30-day window"
   },
   "hn": {
    "label": "HN Algolia API (Who is hiring)",
    "url": "https://hn.algolia.com/api",
-   "fetched_at": "2026-10-24T18:46:43Z",
+   "fetched_at": "2026-10-24T21:01:11Z",
    "row_count": 210,
    "unit": "share of hiring-thread comments mentioning the area"
   },
   "github": {
    "label": "GitHub REST API",
    "url": "https://docs.github.com/en/rest/metrics/statistics",
-   "fetched_at": "2026-10-24T18:50:40Z",
-   "row_count": 1040,
+   "fetched_at": "2026-10-24T21:05:32Z",
+   "row_count": 1196,
    "unit": "commits per week on reference repositories"
   },
   "jobs": {
    "label": "Remotive + Arbeitnow job APIs",
    "url": "https://remotive.com/api/remote-jobs ; https://www.arbeitnow.com/api/job-board-api",
-   "fetched_at": "2026-10-24T18:55:18Z",
+   "fetched_at": "2026-10-24T21:08:28Z",
    "row_count": 1510,
    "unit": "postings mentioning the area, per daily snapshot"
   }
@@ -45,8 +45,8 @@
    "id": "doc",
    "name": "Document processing",
    "blurb": "Reading forms, scans, invoices and claims files, and pulling out the fields.",
-   "raw_ratio": 1.088,
-   "m": 1.088,
+   "raw_ratio": 1.0928,
+   "m": 1.0928,
    "capped": false,
    "feeds": {
     "arxiv": {
@@ -67,7 +67,7 @@
       58,
       56
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 1.0031,
@@ -88,23 +88,24 @@
      "last90_mentions": 10
     },
     "github": {
-     "ratio": 1.3496,
+     "ratio": 1.3676,
      "series": [
-      181,
-      137,
-      205,
-      101,
-      241,
-      288,
-      227,
-      317,
-      426,
-      373,
-      385,
-      323
+      188,
+      144,
+      246,
+      125,
+      256,
+      308,
+      232,
+      324,
+      431,
+      387,
+      395,
+      389
      ],
      "repos": [
       "docling-project/docling",
+      "Unstructured-IO/unstructured",
       "opendatalab/MinerU"
      ]
     }
@@ -115,8 +116,8 @@
    "id": "writing",
    "name": "Writing and summarising",
    "blurb": "Drafting letters, reports and replies, and summarising long text.",
-   "raw_ratio": 1.0771,
-   "m": 1.0771,
+   "raw_ratio": 1.1028,
+   "m": 1.1028,
    "capped": false,
    "feeds": {
     "arxiv": {
@@ -137,7 +138,7 @@
       315,
       377
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 1.0644,
@@ -156,6 +157,27 @@
       0.05808
      ],
      "last90_mentions": 77
+    },
+    "github": {
+     "ratio": 1.1562,
+     "series": [
+      105,
+      80,
+      108,
+      108,
+      120,
+      116,
+      43,
+      92,
+      79,
+      122,
+      98,
+      126
+     ],
+     "repos": [
+      "huggingface/text-generation-inference",
+      "ollama/ollama"
+     ]
     }
    },
    "no_feed": false
@@ -186,7 +208,7 @@
       129,
       230
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 0.9527,
@@ -255,7 +277,7 @@
       2972,
       4514
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 1.0711,
@@ -326,7 +348,7 @@
       166,
       215
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 1.6732,
@@ -397,7 +419,7 @@
       1026,
       1349
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 0.9186,
@@ -467,7 +489,7 @@
       53,
       40
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 0.5145,
@@ -537,7 +559,7 @@
       209,
       243
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 1.0058,
@@ -607,7 +629,7 @@
       1089,
       1403
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 0.9551,
@@ -656,7 +678,7 @@
    "id": "robotics",
    "name": "Robotics and physical work",
    "blurb": "Machines that move, lift, drive and repair in the real world.",
-   "raw_ratio": 1.378,
+   "raw_ratio": 1.3786,
    "m": 1.2,
    "capped": true,
    "feeds": {
@@ -678,7 +700,7 @@
       1728,
       2429
      ],
-     "fetched_at": "2026-10-24T18:34:21Z"
+     "fetched_at": "2026-10-24T20:53:47Z"
     },
     "hn": {
      "ratio": 1.2287,
@@ -699,23 +721,24 @@
      "last90_mentions": 44
     },
     "github": {
-     "ratio": 1.5123,
+     "ratio": 1.5143,
      "series": [
-      20,
-      54,
-      68,
-      57,
-      49,
-      81,
-      47,
-      42,
-      64,
-      142,
-      68,
-      83
+      196,
+      169,
+      210,
+      255,
+      203,
+      274,
+      225,
+      233,
+      241,
+      361,
+      332,
+      529
      ],
      "repos": [
-      "huggingface/lerobot"
+      "huggingface/lerobot",
+      "google-deepmind/mujoco"
      ]
     }
    },
