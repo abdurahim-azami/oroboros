@@ -1,0 +1,22 @@
+[
+ {
+  "as_of": "2026-10-24",
+  "file": "momentum.json",
+  "kind": "live"
+ },
+ {
+  "as_of": "2026-07-26",
+  "file": "replay/momentum-2026-07-26.json",
+  "kind": "replay"
+ },
+ {
+  "as_of": "2026-04-27",
+  "file": "replay/momentum-2026-04-27.json",
+  "kind": "replay"
+ },
+ {
+  "as_of": "2026-01-27",
+  "file": "replay/momentum-2026-01-27.json",
+  "kind": "replay"
+ }
+]

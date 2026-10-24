@@ -1,0 +1,10 @@
+{
+  "name": "oroboros",
+  "private": true,
+  "description": "Your job, minus what AI absorbs, plus what you can grow into.",
+  "scripts": {
+    "test": "node --test tests/engine.test.js",
+    "personas": "node tests/run_personas.js",
+    "serve": "python -m http.server 8765 --directory site"
+  }
+}

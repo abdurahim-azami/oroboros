@@ -1,0 +1,747 @@
+{
+ "generated_at": "2026-10-24T16:18:18Z",
+ "targets_source": "UN Stats SDG API, Target/List (169 targets)",
+ "targets_url": "https://unstats.un.org/sdgapi/v1/sdg/Target/List?includechildren=false",
+ "n_targets": 169,
+ "targets": {
+  "1.4": {
+   "code": "1.4",
+   "goal": 1,
+   "title": "By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance"
+  },
+  "1.5": {
+   "code": "1.5",
+   "goal": 1,
+   "title": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters"
+  },
+  "10.2": {
+   "code": "10.2",
+   "goal": 10,
+   "title": "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status"
+  },
+  "11.2": {
+   "code": "11.2",
+   "goal": 11,
+   "title": "By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons"
+  },
+  "11.6": {
+   "code": "11.6",
+   "goal": 11,
+   "title": "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management"
+  },
+  "12.2": {
+   "code": "12.2",
+   "goal": 12,
+   "title": "By 2030, achieve the sustainable management and efficient use of natural resources"
+  },
+  "12.3": {
+   "code": "12.3",
+   "goal": 12,
+   "title": "By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses"
+  },
+  "12.5": {
+   "code": "12.5",
+   "goal": 12,
+   "title": "By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse"
+  },
+  "16.1": {
+   "code": "16.1",
+   "goal": 16,
+   "title": "Significantly reduce all forms of violence and related death rates everywhere"
+  },
+  "16.10": {
+   "code": "16.10",
+   "goal": 16,
+   "title": "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements"
+  },
+  "16.3": {
+   "code": "16.3",
+   "goal": 16,
+   "title": "Promote the rule of law at the national and international levels and ensure equal access to justice for all"
+  },
+  "16.5": {
+   "code": "16.5",
+   "goal": 16,
+   "title": "Substantially reduce corruption and bribery in all their forms"
+  },
+  "16.6": {
+   "code": "16.6",
+   "goal": 16,
+   "title": "Develop effective, accountable and transparent institutions at all levels"
+  },
+  "17.18": {
+   "code": "17.18",
+   "goal": 17,
+   "title": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts"
+  },
+  "2.3": {
+   "code": "2.3",
+   "goal": 2,
+   "title": "By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment"
+  },
+  "3.8": {
+   "code": "3.8",
+   "goal": 3,
+   "title": "Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all"
+  },
+  "4.4": {
+   "code": "4.4",
+   "goal": 4,
+   "title": "By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship"
+  },
+  "8.10": {
+   "code": "8.10",
+   "goal": 8,
+   "title": "Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all"
+  },
+  "8.2": {
+   "code": "8.2",
+   "goal": 8,
+   "title": "Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors"
+  },
+  "8.3": {
+   "code": "8.3",
+   "goal": 8,
+   "title": "Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services"
+  },
+  "8.5": {
+   "code": "8.5",
+   "goal": 8,
+   "title": "By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value"
+  },
+  "8.9": {
+   "code": "8.9",
+   "goal": 8,
+   "title": "By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products"
+  },
+  "9.1": {
+   "code": "9.1",
+   "goal": 9,
+   "title": "Develop quality, reliable, sustainable and resilient infrastructure, including regional and trans-border infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all"
+  },
+  "9.2": {
+   "code": "9.2",
+   "goal": 9,
+   "title": "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry's share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries"
+  },
+  "9.5": {
+   "code": "9.5",
+   "goal": 9,
+   "title": "Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending"
+  },
+  "9.c": {
+   "code": "9.c",
+   "goal": 9,
+   "title": "Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020"
+  }
+ },
+ "roles": {
+  "13-1031.00": [
+   {
+    "target": "1.5",
+    "strength": 1.0,
+    "why": "Fair and fast claim settlement helps households recover from shocks and disasters",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "8.10",
+    "strength": 0.5,
+    "why": "Working insurance is part of access to financial services",
+    "review": "role (reviewed)"
+   }
+  ],
+  "13-1041.00": [
+   {
+    "target": "16.5",
+    "strength": 1.0,
+    "why": "Checking that rules are followed is front-line work against corruption and bribery",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "16.6",
+    "strength": 0.5,
+    "why": "Supports accountable and transparent institutions",
+    "review": "role (reviewed)"
+   }
+  ],
+  "13-1051.00": [
+   {
+    "target": "9.1",
+    "strength": 0.5,
+    "why": "Accurate estimates help infrastructure projects get built and finished",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "12.2",
+    "strength": 0.5,
+    "why": "Estimating materials well cuts waste of natural resources",
+    "review": "role (reviewed)"
+   }
+  ],
+  "13-1032.00": [
+   {
+    "target": "12.5",
+    "strength": 0.5,
+    "why": "Repair-or-replace decisions change how many parts end up as waste",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "8.10",
+    "strength": 0.5,
+    "why": "Appraisal is part of delivering insurance that people can rely on",
+    "review": "role (reviewed)"
+   }
+  ],
+  "13-1021.00": [
+   {
+    "target": "2.3",
+    "strength": 1.0,
+    "why": "Buying from farmers directly shapes the incomes of small-scale food producers",
+    "review": "role (reviewed)"
+   }
+  ],
+  "13-1081.01": [
+   {
+    "target": "9.1",
+    "strength": 0.5,
+    "why": "Designs the transport and supply systems that infrastructure depends on",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "12.3",
+    "strength": 0.5,
+    "why": "Better supply chains reduce food loss along the way",
+    "review": "role (reviewed)"
+   }
+  ],
+  "13-1081.02": [
+   {
+    "target": "9.1",
+    "strength": 0.5,
+    "why": "Analyses keep supply networks reliable",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "12.3",
+    "strength": 0.5,
+    "why": "Spotting delays and spoilage reduces loss in supply chains",
+    "review": "role (reviewed)"
+   }
+  ],
+  "13-2011.00": [
+   {
+    "target": "16.5",
+    "strength": 1.0,
+    "why": "Audits are a primary check on fraud and bribery",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "16.6",
+    "strength": 0.5,
+    "why": "Accurate accounts make organisations accountable",
+    "review": "role (reviewed)"
+   }
+  ],
+  "13-2072.00": [
+   {
+    "target": "8.10",
+    "strength": 1.0,
+    "why": "Lending decisions decide who gets access to credit",
+    "review": "role (reviewed)"
+   }
+  ],
+  "23-2011.00": [
+   {
+    "target": "16.3",
+    "strength": 1.0,
+    "why": "Legal support work widens access to justice",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-6011.00": [
+   {
+    "target": "16.6",
+    "strength": 0.5,
+    "why": "Well-run offices make institutions work better",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-4011.00": [
+   {
+    "target": "8.10",
+    "strength": 0.5,
+    "why": "Processing investment transactions is part of financial services access",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-4021.00": [
+   {
+    "target": "16.6",
+    "strength": 0.5,
+    "why": "Answering public letters is part of a responsive institution",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-4181.00": [
+   {
+    "target": "8.9",
+    "strength": 0.5,
+    "why": "Travel booking supports tourism that creates jobs",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-9111.00": [
+   {
+    "target": "17.18",
+    "strength": 1.0,
+    "why": "Directly increases the availability of reliable data",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-5053.00": [
+   {
+    "target": "9.1",
+    "strength": 0.5,
+    "why": "Postal networks are basic infrastructure that reaches every household",
+    "review": "role (reviewed)"
+   }
+  ],
+  "53-6061.00": [
+   {
+    "target": "11.2",
+    "strength": 1.0,
+    "why": "Helps make public transport safe and accessible for everyone including people with disabilities",
+    "review": "role (reviewed)"
+   }
+  ],
+  "39-6012.00": [
+   {
+    "target": "8.9",
+    "strength": 0.5,
+    "why": "Visitor services are part of tourism that creates local jobs",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-4051.00": [
+   {
+    "target": "10.2",
+    "strength": 0.5,
+    "why": "Patient and accessible support lets older and disabled customers use essential services",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-4141.00": [
+   {
+    "target": "8.10",
+    "strength": 1.0,
+    "why": "Opening accounts directly expands access to banking",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-4081.00": [
+   {
+    "target": "8.9",
+    "strength": 0.5,
+    "why": "Front-desk work is part of tourism that creates local jobs",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-3021.00": [
+   {
+    "target": "16.6",
+    "strength": 0.5,
+    "why": "Correct billing keeps organisations accountable to customers",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-3011.00": [
+   {
+    "target": "8.10",
+    "strength": 0.5,
+    "why": "Debt collection practice affects whether people keep access to credit",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-4131.00": [
+   {
+    "target": "8.10",
+    "strength": 1.0,
+    "why": "Loan intake directly decides who can reach credit",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "1.4",
+    "strength": 0.5,
+    "why": "Fair loan access matters most for low-income households",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-3071.00": [
+   {
+    "target": "8.10",
+    "strength": 1.0,
+    "why": "Tellers are the everyday face of access to banking",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-3031.00": [
+   {
+    "target": "8.3",
+    "strength": 1.0,
+    "why": "Clean books help small businesses formalise and reach finance",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "16.5",
+    "strength": 0.5,
+    "why": "Accurate records make fraud harder",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-9031.00": [
+   {
+    "target": "16.10",
+    "strength": 0.5,
+    "why": "Laying out public information makes it easier to reach and read",
+    "review": "role (reviewed)"
+   }
+  ],
+  "43-9021.00": [
+   {
+    "target": "17.18",
+    "strength": 0.5,
+    "why": "Clean data entry underpins reliable statistics",
+    "review": "role (reviewed)"
+   }
+  ],
+  "27-3091.00": [
+   {
+    "target": "10.2",
+    "strength": 1.0,
+    "why": "Translation lets people use services and information in their own language",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "16.10",
+    "strength": 0.5,
+    "why": "Widens public access to information across languages",
+    "review": "role (reviewed)"
+   }
+  ],
+  "27-3042.00": [
+   {
+    "target": "16.10",
+    "strength": 0.5,
+    "why": "Clear manuals and guides widen access to information",
+    "review": "role (reviewed)"
+   },
+   {
+    "target": "4.4",
+    "strength": 0.5,
+    "why": "Documentation is how people learn technical skills on the job",
+    "review": "role (reviewed)"
+   }
+  ],
+  "15-1211.00": [
+   {
+    "target": "9.c",
+    "strength": 0.5,
+    "why": "Designs the systems that bring digital services to more people",
+    "review": "role (reviewed)"
+   }
+  ],
+  "15-2051.00": [
+   {
+    "target": "17.18",
+    "strength": 1.0,
+    "why": "Produces the timely data that decisions depend on",
+    "review": "role (reviewed)"
+   }
+  ]
+ },
+ "groups": {
+  "11": {
+   "target": "8.2",
+   "strength": 0.5,
+   "why": "Managers decide how technology is adopted and how productive work becomes",
+   "group": "Management",
+   "review": "occupation group default (reviewed)"
+  },
+  "13": {
+   "target": "8.10",
+   "strength": 0.5,
+   "why": "Business and finance work underpins access to banking and insurance",
+   "group": "Business and Financial Operations",
+   "review": "occupation group default (reviewed)"
+  },
+  "15": {
+   "target": "9.5",
+   "strength": 0.5,
+   "why": "Builds the research and technology capability of industry",
+   "group": "Computer and Mathematical",
+   "review": "occupation group default (reviewed)"
+  },
+  "17": {
+   "target": "9.1",
+   "strength": 0.5,
+   "why": "Designs resilient infrastructure",
+   "group": "Architecture and Engineering",
+   "review": "occupation group default (reviewed)"
+  },
+  "19": {
+   "target": "9.5",
+   "strength": 0.5,
+   "why": "Scientific work builds research capability",
+   "group": "Life, Physical, and Social Science",
+   "review": "occupation group default (reviewed)"
+  },
+  "21": {
+   "target": "10.2",
+   "strength": 0.5,
+   "why": "Supports inclusion of people at risk of being left behind",
+   "group": "Community and Social Service",
+   "review": "occupation group default (reviewed)"
+  },
+  "23": {
+   "target": "16.3",
+   "strength": 0.5,
+   "why": "Legal work underpins access to justice",
+   "group": "Legal",
+   "review": "occupation group default (reviewed)"
+  },
+  "25": {
+   "target": "4.4",
+   "strength": 0.5,
+   "why": "Teaching builds the skills people need for work",
+   "group": "Educational Instruction and Library",
+   "review": "occupation group default (reviewed)"
+  },
+  "27": {
+   "target": "16.10",
+   "strength": 0.5,
+   "why": "Media and design shape public access to information",
+   "group": "Arts, Design, Entertainment, Sports, and Media",
+   "review": "occupation group default (reviewed)"
+  },
+  "29": {
+   "target": "3.8",
+   "strength": 0.5,
+   "why": "Clinical work is how health coverage reaches people",
+   "group": "Healthcare Practitioners and Technical",
+   "review": "occupation group default (reviewed)"
+  },
+  "31": {
+   "target": "3.8",
+   "strength": 0.5,
+   "why": "Support roles keep health services running",
+   "group": "Healthcare Support",
+   "review": "occupation group default (reviewed)"
+  },
+  "33": {
+   "target": "16.1",
+   "strength": 0.5,
+   "why": "Protective work aims to reduce violence",
+   "group": "Protective Service",
+   "review": "occupation group default (reviewed)"
+  },
+  "35": {
+   "target": "12.3",
+   "strength": 0.5,
+   "why": "Kitchens decide how much food is wasted",
+   "group": "Food Preparation and Serving Related",
+   "review": "occupation group default (reviewed)"
+  },
+  "37": {
+   "target": "11.6",
+   "strength": 0.5,
+   "why": "Cleaning and waste handling affect urban environmental quality",
+   "group": "Building and Grounds Cleaning and Maintenance",
+   "review": "occupation group default (reviewed)"
+  },
+  "39": {
+   "target": "8.5",
+   "strength": 0.5,
+   "why": "Care and service jobs are a large share of decent work",
+   "group": "Personal Care and Service",
+   "review": "occupation group default (reviewed)"
+  },
+  "41": {
+   "target": "8.3",
+   "strength": 0.5,
+   "why": "Sales work keeps small enterprises trading",
+   "group": "Sales and Related",
+   "review": "occupation group default (reviewed)"
+  },
+  "43": {
+   "target": "8.2",
+   "strength": 0.5,
+   "why": "Administrative work is where technology most changes productivity",
+   "group": "Office and Administrative Support",
+   "review": "occupation group default (reviewed)"
+  },
+  "45": {
+   "target": "2.3",
+   "strength": 0.5,
+   "why": "Farm and fishing work drives small-producer incomes",
+   "group": "Farming, Fishing, and Forestry",
+   "review": "occupation group default (reviewed)"
+  },
+  "47": {
+   "target": "9.1",
+   "strength": 0.5,
+   "why": "Builds infrastructure",
+   "group": "Construction and Extraction",
+   "review": "occupation group default (reviewed)"
+  },
+  "49": {
+   "target": "9.1",
+   "strength": 0.5,
+   "why": "Keeps infrastructure working",
+   "group": "Installation, Maintenance, and Repair",
+   "review": "occupation group default (reviewed)"
+  },
+  "51": {
+   "target": "9.2",
+   "strength": 0.5,
+   "why": "Manufacturing work is the core of industrialisation",
+   "group": "Production",
+   "review": "occupation group default (reviewed)"
+  },
+  "53": {
+   "target": "11.2",
+   "strength": 0.5,
+   "why": "Moves people and goods through transport systems",
+   "group": "Transportation and Material Moving",
+   "review": "occupation group default (reviewed)"
+  },
+  "55": {
+   "target": "16.1",
+   "strength": 0.5,
+   "why": "Security work aims to reduce violence",
+   "group": "Military Specific",
+   "review": "occupation group default (reviewed)"
+  }
+ },
+ "skills": {
+  "*": [
+   {
+    "target": "4.4",
+    "why": "Every step builds job-relevant skills for employment (applies to all skills)"
+   }
+  ],
+  "4.A.2.a.4": [
+   {
+    "target": "17.18",
+    "why": "Data skills feed reliable evidence for decisions"
+   }
+  ],
+  "4.A.1.b.3": [
+   {
+    "target": "17.18",
+    "why": "Measuring and estimating produce usable data"
+   }
+  ],
+  "4.A.2.a.3": [
+   {
+    "target": "16.6",
+    "why": "Checking compliance keeps institutions accountable"
+   }
+  ],
+  "4.A.4.a.5": [
+   {
+    "target": "10.2",
+    "why": "Care and accessibility skills help include people who are often left out"
+   }
+  ],
+  "4.A.4.a.8": [
+   {
+    "target": "10.2",
+    "why": "Serving the public well includes those who need extra help"
+   }
+  ],
+  "4.A.4.a.3": [
+   {
+    "target": "10.2",
+    "why": "Clear communication with the public widens who can use a service"
+   }
+  ],
+  "4.A.4.a.1": [
+   {
+    "target": "16.10",
+    "why": "Explaining information widens public access to it"
+   }
+  ],
+  "4.A.4.c.1": [
+   {
+    "target": "8.2",
+    "why": "Streamlining admin raises productivity"
+   }
+  ],
+  "4.A.2.b.6": [
+   {
+    "target": "8.2",
+    "why": "Better planning raises productivity"
+   }
+  ],
+  "4.A.2.b.5": [
+   {
+    "target": "8.2",
+    "why": "Better scheduling raises productivity"
+   }
+  ],
+  "4.A.3.b.1": [
+   {
+    "target": "8.2",
+    "why": "Digital skills drive productivity through technology"
+   }
+  ],
+  "4.A.4.c.3": [
+   {
+    "target": "12.2",
+    "why": "Monitoring resources is how waste gets cut"
+   }
+  ],
+  "4.A.1.b.2": [
+   {
+    "target": "9.1",
+    "why": "Inspection keeps infrastructure and equipment safe"
+   }
+  ],
+  "4.A.2.b.1": [
+   {
+    "target": "8.5",
+    "why": "Good judgement is the part of work that stays with people"
+   }
+  ]
+ },
+ "malaysia": [
+  {
+   "indicator": "8.5.2",
+   "series": "SL_TLF_UEM",
+   "label": "Unemployment rate, age 15+ (%)",
+   "value": 3.9,
+   "year": 2022,
+   "source": "UN SDG Global Database (UN Stats SDG API)",
+   "url": "https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SL_TLF_UEM&areaCode=458"
+  },
+  {
+   "indicator": "8.5.2",
+   "series": "SL_TLF_UEM",
+   "label": "Youth unemployment rate, age 15-24 (%)",
+   "value": 11.73,
+   "year": 2022,
+   "source": "UN SDG Global Database (UN Stats SDG API)",
+   "url": "https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SL_TLF_UEM&areaCode=458"
+  },
+  {
+   "indicator": "8.6.1",
+   "series": "SL_TLF_NEET",
+   "label": "Youth not in education, employment or training (%)",
+   "value": 10.22,
+   "year": 2022,
+   "source": "UN SDG Global Database (UN Stats SDG API)",
+   "url": "https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SL_TLF_NEET&areaCode=458"
+  }
+ ],
+ "method": "Tags assigned by team review of the official target text. Role tags carry a strength: 1 = the role's core output serves the target, 0.5 = supporting. Roles without a specific review fall back to their SOC major group default."
+}

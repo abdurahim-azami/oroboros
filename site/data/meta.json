@@ -1,0 +1,57 @@
+{
+ "built_at": "2026-10-24T16:16:18Z",
+ "onet_version": "O*NET 31.0 (August 2026)",
+ "counts": {
+  "occupations": 1016,
+  "tasks": 18838,
+  "dwa": 2087,
+  "tasks_with_gpt_labels": 18738,
+  "tasks_with_aei_usage": 1721,
+  "tasks_imputed": 100,
+  "emerging_tasks": 338
+ },
+ "occupations_with_tasks": 923,
+ "static_sources": {
+  "onet_31_text.zip": {
+   "url": "https://www.onetcenter.org/dl_files/database/db_31_0_text.zip",
+   "name": "O*NET 31.0 Database (text)",
+   "licence": "CC BY 4.0, USDOL/ETA. https://www.onetcenter.org/license_db.html",
+   "version": "31.0 (Aug 2026)",
+   "bytes": 13183034,
+   "fetched_at": "2026-10-24T15:47:30Z"
+  },
+  "gpts_full_labelset.tsv": {
+   "url": "https://raw.githubusercontent.com/openai/GPTs-are-GPTs/main/data/full_labelset.tsv",
+   "name": "GPTs are GPTs task exposure labels (Eloundou et al., 2023)",
+   "licence": "MIT (repository licence), https://github.com/openai/GPTs-are-GPTs",
+   "version": "main branch",
+   "bytes": 3893248,
+   "fetched_at": "2026-10-24T15:47:30Z"
+  },
+  "AIOE_DataAppendix.xlsx": {
+   "url": "https://raw.githubusercontent.com/AIOE-Data/AIOE/main/AIOE_DataAppendix.xlsx",
+   "name": "AI Occupational Exposure (Felten, Raj & Seamans, 2021)",
+   "licence": "No licence file in repository; cited for research use, verify with authors. https://github.com/AIOE-Data/AIOE",
+   "version": "main branch",
+   "bytes": 170359,
+   "fetched_at": "2026-10-24T15:47:30Z"
+  },
+  "aei_task_penetration.csv": {
+   "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/main/labor_market_impacts/task_penetration.csv",
+   "name": "Anthropic Economic Index: task penetration",
+   "licence": "MIT (dataset card), https://huggingface.co/datasets/Anthropic/EconomicIndex",
+   "version": "labor_market_impacts",
+   "bytes": 1889822,
+   "fetched_at": "2026-10-24T15:47:31Z"
+  },
+  "aei_job_exposure.csv": {
+   "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/main/labor_market_impacts/job_exposure.csv",
+   "name": "Anthropic Economic Index: observed job exposure",
+   "licence": "MIT (dataset card), https://huggingface.co/datasets/Anthropic/EconomicIndex",
+   "version": "labor_market_impacts",
+   "bytes": 37176,
+   "fetched_at": "2026-10-24T15:47:31Z"
+  }
+ },
+ "reviewed_task_capability_overrides": 32
+}

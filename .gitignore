@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Big, re-downloadable inputs (python pipeline/fetch_static.py)
+data/raw/
+data/oroboros.duckdb
+data/*.log
+
+# Secrets
+server/.env
+.env
+
+# Local tooling
+.claude/
+tests/roles_seen.json

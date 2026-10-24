@@ -1,0 +1,33 @@
+code,task_id,capability,rationale
+13-1031.00,21417,doc,Reading claim forms and records to check coverage is document extraction plus a rules check
+13-1031.00,21420,vision,Damage assessment from photos and site visits is a vision task
+13-1031.00,21421,writing,Mostly written correspondence to fix errors and omissions
+13-1031.00,21422,human,Interviewing witnesses and claimants depends on trust and judgement
+13-1031.00,21425,human,Complex severe claims need accountable human judgement
+13-1031.00,21432,human,Conferring with legal counsel on litigation
+13-1031.00,21424,data,Reserve setting is numeric estimation
+13-1031.00,21430,research,Flagging questionable claims is evidence weighing (fraud triage)
+13-1031.00,21433,speech,Phone and in-person contact with doctors and employers
+13-1031.00,21435,human,Presenting and debating cases in committee
+13-1031.00,21443,human,Attending mediations and trials in person
+13-1031.00,21440,writing,Written exchanges with reinsurance brokers
+13-1031.00,21439,data,Detecting over and under payments is data analysis
+43-6011.00,2779,agents,Booking travel is a multi-step tool workflow
+43-6011.00,2773,doc,Sorting and routing incoming mail is document processing
+43-6011.00,2784,human,Representing an executive in meetings
+43-6011.00,18578,doc,Payroll processing is form and record handling
+43-4051.00,2582,agents,Routing unresolved cases to the right team is workflow triage
+43-3031.00,2487,data,Running accounting software to record and analyse figures
+43-3031.00,2495,data,Calculations on 10-key calculators are numeric work not physical work
+43-3031.00,2493,doc,Coding documents to account codes is document classification
+43-3031.00,2506,doc,Transferring journal details to ledgers is data entry
+43-3031.00,2488,research,Following policy and regulation is a rules check
+43-3031.00,2498,agents,General office duties are routine admin workflow
+27-3091.00,9326,human,Professional ethics and confidentiality
+27-3091.00,9327,translation,Resolving meaning across languages and cultures
+27-3091.00,9339,translation,Localising software and documents
+27-3091.00,9331,translation,Reading source material to render it in another language
+27-3091.00,9340,human,Educating people about the interpreter's role
+27-3091.00,9341,human,Training and supervising other translators
+27-3091.00,9342,human,Guiding tourists in person
+27-3091.00,9338,human,Scoping work and agreeing fees with clients

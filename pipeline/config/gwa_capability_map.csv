@@ -1,0 +1,42 @@
+gwa_id,gwa_name,capability,review_status,rationale
+4.A.1.a.1,Getting Information,research,reviewed,Looking up and gathering information is what retrieval and research tools do
+4.A.1.a.2,"Monitoring Processes, Materials, or Surroundings",data,reviewed,Monitoring is mostly reading signals and spotting changes in data
+4.A.1.b.1,"Identifying Objects, Actions, and Events",vision,reviewed,Identifying things in the world is a perception task
+4.A.1.b.2,"Inspecting Equipment, Structures, or Materials",vision,reviewed,Inspection is visual checking
+4.A.1.b.3,"Estimating the Quantifiable Characteristics of Products, Events, or Information",data,reviewed,Estimating quantities is numeric analysis
+4.A.2.a.1,"Judging the Qualities of Objects, Services, or People",data,reviewed,Judging quality against criteria is scoring and comparison
+4.A.2.a.2,Processing Information,doc,reviewed,"Compiling, coding, checking and transcribing information is document processing"
+4.A.2.a.3,Evaluating Information to Determine Compliance with Standards,research,reviewed,Checking against rules and standards is retrieval plus reasoning
+4.A.2.a.4,Analyzing Data or Information,data,reviewed,Direct match
+4.A.2.b.1,Making Decisions and Solving Problems,research,reviewed,Weighing evidence to decide is the reasoning capability
+4.A.2.b.2,Thinking Creatively,writing,reviewed,Creative drafting and idea generation is generative writing
+4.A.2.b.3,Updating and Using Relevant Knowledge,research,reviewed,Keeping knowledge current is research
+4.A.2.b.4,Developing Objectives and Strategies,human,reviewed,Setting direction depends on accountability and judgement held by people
+4.A.2.b.5,Scheduling Work and Activities,agents,reviewed,Scheduling is a planning workflow agents automate
+4.A.2.b.6,"Organizing, Planning, and Prioritizing Work",agents,reviewed,Planning and ordering work is the agent capability
+4.A.3.a.1,Performing General Physical Activities,robotics,reviewed,Physical work
+4.A.3.a.2,Handling and Moving Objects,robotics,reviewed,Physical work
+4.A.3.a.3,Controlling Machines and Processes,robotics,reviewed,Physical control of machines
+4.A.3.a.4,"Operating Vehicles, Mechanized Devices, or Equipment",robotics,reviewed,Physical operation
+4.A.3.b.1,Working with Computers,code,reviewed,Programming and configuring systems
+4.A.3.b.2,"Drafting, Laying Out, and Specifying Technical Devices, Parts, and Equipment",code,reviewed,Technical drafting is done in software (CAD and specs)
+4.A.3.b.4,Repairing and Maintaining Mechanical Equipment,robotics,reviewed,Physical repair
+4.A.3.b.5,Repairing and Maintaining Electronic Equipment,robotics,reviewed,Physical repair
+4.A.3.b.6,Documenting/Recording Information,doc,reviewed,Recording information in files and systems
+4.A.4.a.1,Interpreting the Meaning of Information for Others,writing,reviewed,Explaining information in words; translation tasks are overridden by keyword
+4.A.4.a.2,"Communicating with Supervisors, Peers, or Subordinates",writing,reviewed,Internal communication is mostly written
+4.A.4.a.3,Communicating with People Outside the Organization,speech,reviewed,External contact is often calls and conversations
+4.A.4.a.4,Establishing and Maintaining Interpersonal Relationships,human,reviewed,Trust and relationships
+4.A.4.a.5,Assisting and Caring for Others,human,reviewed,Care work
+4.A.4.a.6,Selling or Influencing Others,human,reviewed,Persuasion depends on trust
+4.A.4.a.7,Resolving Conflicts and Negotiating with Others,human,reviewed,Negotiation and conflict
+4.A.4.a.8,Performing for or Working Directly with the Public,speech,reviewed,Front-line public contact is conversational
+4.A.4.b.1,Coordinating the Work and Activities of Others,agents,reviewed,Coordination is workflow orchestration
+4.A.4.b.2,Developing and Building Teams,human,reviewed,Team building
+4.A.4.b.3,Training and Teaching Others,human,reviewed,Teaching
+4.A.4.b.4,"Guiding, Directing, and Motivating Subordinates",human,reviewed,Leadership
+4.A.4.b.5,Coaching and Developing Others,human,reviewed,Coaching
+4.A.4.b.6,Providing Consultation and Advice to Others,research,reviewed,Advice draws on research and reasoning
+4.A.4.c.1,Performing Administrative Activities,agents,reviewed,Routine admin is workflow automation
+4.A.4.c.2,Staffing Organizational Units,human,reviewed,Hiring decisions stay with people (and the hackathon rules forbid automating them)
+4.A.4.c.3,Monitoring and Controlling Resources,data,reviewed,Tracking budgets and resources is data work

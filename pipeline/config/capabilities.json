@@ -1,0 +1,93 @@
+{
+  "_note": "AI capability areas used by Oroboros. Each area has the queries the nightly ingest runs. Edit queries here, never in code. 'human' has no feed: its momentum is fixed at 1.0.",
+  "areas": [
+    {
+      "id": "doc",
+      "name": "Document processing",
+      "blurb": "Reading forms, scans, invoices and claims files, and pulling out the fields.",
+      "arxiv": "abs:\"document understanding\" OR abs:\"optical character recognition\" OR abs:\"information extraction\"",
+      "hn": ["OCR", "document AI", "document processing", "intelligent document", "invoice"],
+      "github": ["docling-project/docling", "Unstructured-IO/unstructured", "opendatalab/MinerU"]
+    },
+    {
+      "id": "writing",
+      "name": "Writing and summarising",
+      "blurb": "Drafting letters, reports and replies, and summarising long text.",
+      "arxiv": "abs:summarization OR abs:\"text generation\"",
+      "hn": ["LLM", "GPT", "copywriting", "content generation", "summariz"],
+      "github": ["vllm-project/vllm", "huggingface/text-generation-inference", "ollama/ollama"]
+    },
+    {
+      "id": "code",
+      "name": "Code generation",
+      "blurb": "Writing, fixing and explaining software.",
+      "arxiv": "abs:\"code generation\" OR abs:\"program synthesis\"",
+      "hn": ["Copilot", "Cursor", "AI coding", "code generation", "coding agent"],
+      "github": ["OpenHands/OpenHands", "Aider-AI/aider", "continuedev/continue"]
+    },
+    {
+      "id": "agents",
+      "name": "Agents and tool use",
+      "blurb": "Software that plans steps, calls tools and runs workflows on its own.",
+      "arxiv": "abs:\"LLM agent\" OR abs:\"tool use\" OR abs:\"agentic\"",
+      "hn": ["agentic", "AI agent", "LangChain", "workflow automation", "RPA"],
+      "github": ["langchain-ai/langgraph", "microsoft/autogen", "crewAIInc/crewAI"]
+    },
+    {
+      "id": "speech",
+      "name": "Speech and conversation",
+      "blurb": "Transcribing calls, talking to customers, voice assistants.",
+      "arxiv": "abs:\"speech recognition\" OR abs:\"text-to-speech\" OR abs:\"spoken dialogue\"",
+      "hn": ["speech", "voice AI", "ASR", "text-to-speech", "call center"],
+      "github": ["openai/whisper", "SYSTRAN/faster-whisper", "k2-fsa/sherpa-onnx"]
+    },
+    {
+      "id": "vision",
+      "name": "Vision",
+      "blurb": "Looking at photos and video: damage, defects, identity, scenes.",
+      "arxiv": "abs:\"object detection\" OR abs:\"image classification\" OR abs:\"vision-language\"",
+      "hn": ["computer vision", "image recognition", "vision model", "object detection"],
+      "github": ["ultralytics/ultralytics", "facebookresearch/sam2", "roboflow/supervision"]
+    },
+    {
+      "id": "translation",
+      "name": "Translation",
+      "blurb": "Moving text and speech between languages.",
+      "arxiv": "abs:\"machine translation\"",
+      "hn": ["translation", "localization", "multilingual"],
+      "github": ["LibreTranslate/LibreTranslate", "argosopentech/argos-translate"]
+    },
+    {
+      "id": "data",
+      "name": "Data analysis and forecasting",
+      "blurb": "Spreadsheets, anomaly and fraud checks, forecasts, dashboards.",
+      "arxiv": "abs:\"time series forecasting\" OR abs:\"anomaly detection\" OR abs:\"tabular data\"",
+      "hn": ["data analysis", "forecasting", "analytics", "fraud detection", "pandas"],
+      "github": ["sinaptik-ai/pandas-ai", "amazon-science/chronos-forecasting", "Nixtla/statsforecast"]
+    },
+    {
+      "id": "research",
+      "name": "Research and reasoning",
+      "blurb": "Looking things up, checking rules, weighing evidence, making a call.",
+      "arxiv": "abs:\"retrieval-augmented\" OR abs:\"question answering\" OR (abs:reasoning AND abs:\"large language model\")",
+      "hn": ["RAG", "retrieval", "semantic search", "reasoning model", "vector database"],
+      "github": ["run-llama/llama_index", "deepset-ai/haystack", "qdrant/qdrant"]
+    },
+    {
+      "id": "robotics",
+      "name": "Robotics and physical work",
+      "blurb": "Machines that move, lift, drive and repair in the real world.",
+      "arxiv": "cat:cs.RO",
+      "hn": ["robotics", "robot", "autonomous vehicle", "humanoid"],
+      "github": ["huggingface/lerobot", "google-deepmind/mujoco"]
+    },
+    {
+      "id": "human",
+      "name": "Human-centred work",
+      "blurb": "Care, trust, negotiation, coaching and leadership. No feed: momentum fixed at 1.0.",
+      "arxiv": null,
+      "hn": [],
+      "github": []
+    }
+  ]
+}

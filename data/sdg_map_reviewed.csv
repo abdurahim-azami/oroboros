@@ -1,0 +1,44 @@
+onet_soc_code,title,target,strength,rationale
+13-1031.00,"Claims Adjusters, Examiners, and Investigators",1.5,1,Fair and fast claim settlement helps households recover from shocks and disasters
+13-1031.00,"Claims Adjusters, Examiners, and Investigators",8.10,0.5,Working insurance is part of access to financial services
+13-1041.00,Compliance Officers,16.5,1,Checking that rules are followed is front-line work against corruption and bribery
+13-1041.00,Compliance Officers,16.6,0.5,Supports accountable and transparent institutions
+13-1051.00,Cost Estimators,9.1,0.5,Accurate estimates help infrastructure projects get built and finished
+13-1051.00,Cost Estimators,12.2,0.5,Estimating materials well cuts waste of natural resources
+13-1032.00,"Insurance Appraisers, Auto Damage",12.5,0.5,Repair-or-replace decisions change how many parts end up as waste
+13-1032.00,"Insurance Appraisers, Auto Damage",8.10,0.5,Appraisal is part of delivering insurance that people can rely on
+13-1021.00,"Buyers and Purchasing Agents, Farm Products",2.3,1,Buying from farmers directly shapes the incomes of small-scale food producers
+13-1081.01,Logistics Engineers,9.1,0.5,Designs the transport and supply systems that infrastructure depends on
+13-1081.01,Logistics Engineers,12.3,0.5,Better supply chains reduce food loss along the way
+13-1081.02,Logistics Analysts,9.1,0.5,Analyses keep supply networks reliable
+13-1081.02,Logistics Analysts,12.3,0.5,Spotting delays and spoilage reduces loss in supply chains
+13-2011.00,Accountants and Auditors,16.5,1,Audits are a primary check on fraud and bribery
+13-2011.00,Accountants and Auditors,16.6,0.5,Accurate accounts make organisations accountable
+13-2072.00,Loan Officers,8.10,1,Lending decisions decide who gets access to credit
+23-2011.00,Paralegals and Legal Assistants,16.3,1,Legal support work widens access to justice
+43-6011.00,Executive Secretaries and Executive Administrative Assistants,16.6,0.5,Well-run offices make institutions work better
+43-4011.00,Brokerage Clerks,8.10,0.5,Processing investment transactions is part of financial services access
+43-4021.00,Correspondence Clerks,16.6,0.5,Answering public letters is part of a responsive institution
+43-4181.00,Reservation and Transportation Ticket Agents and Travel Clerks,8.9,0.5,Travel booking supports tourism that creates jobs
+43-9111.00,Statistical Assistants,17.18,1,Directly increases the availability of reliable data
+43-5053.00,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",9.1,0.5,Postal networks are basic infrastructure that reaches every household
+53-6061.00,Passenger Attendants,11.2,1,Helps make public transport safe and accessible for everyone including people with disabilities
+39-6012.00,Concierges,8.9,0.5,Visitor services are part of tourism that creates local jobs
+43-4051.00,Customer Service Representatives,10.2,0.5,Patient and accessible support lets older and disabled customers use essential services
+43-4141.00,New Accounts Clerks,8.10,1,Opening accounts directly expands access to banking
+43-4081.00,"Hotel, Motel, and Resort Desk Clerks",8.9,0.5,Front-desk work is part of tourism that creates local jobs
+43-3021.00,Billing and Posting Clerks,16.6,0.5,Correct billing keeps organisations accountable to customers
+43-3011.00,Bill and Account Collectors,8.10,0.5,Debt collection practice affects whether people keep access to credit
+43-4131.00,Loan Interviewers and Clerks,8.10,1,Loan intake directly decides who can reach credit
+43-4131.00,Loan Interviewers and Clerks,1.4,0.5,Fair loan access matters most for low-income households
+43-3071.00,Tellers,8.10,1,Tellers are the everyday face of access to banking
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",8.3,1,Clean books help small businesses formalise and reach finance
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",16.5,0.5,Accurate records make fraud harder
+43-9031.00,Desktop Publishers,16.10,0.5,Laying out public information makes it easier to reach and read
+43-9021.00,Data Entry Keyers,17.18,0.5,Clean data entry underpins reliable statistics
+27-3091.00,Interpreters and Translators,10.2,1,Translation lets people use services and information in their own language
+27-3091.00,Interpreters and Translators,16.10,0.5,Widens public access to information across languages
+27-3042.00,Technical Writers,16.10,0.5,Clear manuals and guides widen access to information
+27-3042.00,Technical Writers,4.4,0.5,Documentation is how people learn technical skills on the job
+15-1211.00,Computer Systems Analysts,9.c,0.5,Designs the systems that bring digital services to more people
+15-2051.00,Data Scientists,17.18,1,Produces the timely data that decisions depend on

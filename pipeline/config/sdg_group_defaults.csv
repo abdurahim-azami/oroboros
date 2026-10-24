@@ -1,0 +1,24 @@
+soc_major,group,target,rationale
+11,Management,8.2,Managers decide how technology is adopted and how productive work becomes
+13,Business and Financial Operations,8.10,Business and finance work underpins access to banking and insurance
+15,Computer and Mathematical,9.5,Builds the research and technology capability of industry
+17,Architecture and Engineering,9.1,Designs resilient infrastructure
+19,"Life, Physical, and Social Science",9.5,Scientific work builds research capability
+21,Community and Social Service,10.2,Supports inclusion of people at risk of being left behind
+23,Legal,16.3,Legal work underpins access to justice
+25,Educational Instruction and Library,4.4,Teaching builds the skills people need for work
+27,"Arts, Design, Entertainment, Sports, and Media",16.10,Media and design shape public access to information
+29,Healthcare Practitioners and Technical,3.8,Clinical work is how health coverage reaches people
+31,Healthcare Support,3.8,Support roles keep health services running
+33,Protective Service,16.1,Protective work aims to reduce violence
+35,Food Preparation and Serving Related,12.3,Kitchens decide how much food is wasted
+37,Building and Grounds Cleaning and Maintenance,11.6,Cleaning and waste handling affect urban environmental quality
+39,Personal Care and Service,8.5,Care and service jobs are a large share of decent work
+41,Sales and Related,8.3,Sales work keeps small enterprises trading
+43,Office and Administrative Support,8.2,Administrative work is where technology most changes productivity
+45,"Farming, Fishing, and Forestry",2.3,Farm and fishing work drives small-producer incomes
+47,Construction and Extraction,9.1,Builds infrastructure
+49,"Installation, Maintenance, and Repair",9.1,Keeps infrastructure working
+51,Production,9.2,Manufacturing work is the core of industrialisation
+53,Transportation and Material Moving,11.2,Moves people and goods through transport systems
+55,Military Specific,16.1,Security work aims to reduce violence

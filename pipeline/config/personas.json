@@ -1,0 +1,65 @@
+{
+  "_note": "All five people are SYNTHETIC. No real person, CV or employer data is used. Task IDs are O*NET 31.0 task IDs and are validated at build time; an unknown ID fails the build.",
+  "personas": [
+    {
+      "id": "huimin",
+      "name": "Hui Min",
+      "age": 29,
+      "place": "Kuala Lumpur",
+      "headline": "Claims processor at an insurer",
+      "story": "Her company just announced an AI triage pilot. She has about three months before her role is redesigned, and six hours a week to learn. She does not need fifty job ideas. She needs to know which parts of her job to bet on, and what to learn first.",
+      "occupation": "13-1031.00",
+      "learn_hours_per_week": 6,
+      "budget_rm": 0,
+      "tasks": {"21417": 8, "21429": 7, "21428": 6, "21419": 5, "21421": 4, "21426": 4, "21434": 3, "21430": 2, "21422": 1}
+    },
+    {
+      "id": "arif",
+      "name": "Arif",
+      "age": 34,
+      "place": "Putrajaya",
+      "headline": "Executive assistant at a government-linked company",
+      "story": "His director now drafts her own emails with an AI assistant. Arif's calendar work is shrinking and he wants to move toward operations before his role is merged.",
+      "occupation": "43-6011.00",
+      "learn_hours_per_week": 4,
+      "budget_rm": 0,
+      "tasks": {"2770": 8, "2771": 7, "2776": 5, "2773": 4, "18575": 3, "2779": 3, "2774": 3, "18573": 3, "2780": 2, "2775": 2}
+    },
+    {
+      "id": "meiling",
+      "name": "Mei Ling",
+      "age": 24,
+      "place": "Cyberjaya",
+      "headline": "Customer service agent at a telco contact centre",
+      "story": "A voice bot now takes the first minute of every call. Mei Ling handles what it cannot, and wonders whether that is a job or a countdown.",
+      "occupation": "43-4051.00",
+      "learn_hours_per_week": 5,
+      "budget_rm": 0,
+      "tasks": {"18565": 14, "2578": 7, "2579": 6, "2580": 4, "2581": 3, "2582": 2, "2584": 2, "2586": 2}
+    },
+    {
+      "id": "kavitha",
+      "name": "Kavitha",
+      "age": 41,
+      "place": "Penang",
+      "headline": "Bookkeeping clerk at a manufacturing SME",
+      "story": "Her firm is moving to cloud accounting that reads invoices on its own. She has 18 years of experience and three spare hours a week.",
+      "occupation": "43-3031.00",
+      "learn_hours_per_week": 3,
+      "budget_rm": 0,
+      "tasks": {"2487": 8, "2486": 7, "2503": 6, "2496": 5, "2497": 4, "2506": 4, "2501": 3, "2498": 3}
+    },
+    {
+      "id": "daniel",
+      "name": "Daniel",
+      "age": 26,
+      "place": "Kuala Lumpur",
+      "headline": "Document translator (English, Bahasa Malaysia, Chinese)",
+      "story": "Clients now send machine-translated drafts and ask him to fix them for half the fee. He has evenings free and wants a direction, not a panic.",
+      "occupation": "27-3091.00",
+      "learn_hours_per_week": 8,
+      "budget_rm": 0,
+      "tasks": {"9329": 8, "9339": 7, "9330": 6, "9333": 5, "9337": 4, "9336": 4, "9338": 3, "9332": 2, "9326": 1}
+    }
+  ]
+}

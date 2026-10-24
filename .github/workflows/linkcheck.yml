@@ -1,0 +1,21 @@
+name: Course link check
+
+# Fails loudly if any course URL in site/data/courses.json stops answering 200,
+# so a dead course can never sit quietly in the app.
+on:
+  schedule:
+    - cron: "47 18 * * *"
+  workflow_dispatch:
+  pull_request:
+    paths: ["site/data/courses.json", "pipeline/config/courses_curated.json"]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install httpx
+      - run: python pipeline/courses.py --check

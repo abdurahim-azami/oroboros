@@ -1,0 +1,619 @@
+{
+ "generated_at": "2026-10-24T16:18:19Z",
+ "source": "Microsoft Learn Catalog API",
+ "source_url": "https://learn.microsoft.com/api/catalog/?locale=en-us&type=learningPaths",
+ "courses": [
+  {
+   "id": "learn.mec.introduction-ai-literacy",
+   "title": "Introduction to AI literacy",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/introduction-ai-literacy/",
+   "hours": 3.4,
+   "minutes": 201,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 5,
+   "provider_last_modified": "2026-10-22",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "doc",
+    "writing",
+    "agents",
+    "research",
+    "data",
+    "speech",
+    "vision",
+    "translation",
+    "code"
+   ],
+   "gwa": [
+    "4.A.2.b.3"
+   ],
+   "kind": "literacy",
+   "proof_task": "List your five most frequent tasks. For each, write one line on what an AI tool could do and one line on what you must still check yourself."
+  },
+  {
+   "id": "learn.wwl.explore-microsoft-365-copilot-business-chat",
+   "title": "Build foundational generative AI skills",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-business-chat/",
+   "hours": 2.3,
+   "minutes": 140,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 4,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "writing",
+    "doc"
+   ],
+   "gwa": [
+    "4.A.4.a.2",
+    "4.A.3.b.6",
+    "4.A.2.b.2",
+    "4.A.4.a.1"
+   ],
+   "kind": "skill",
+   "proof_task": "Use an AI assistant to draft a decision letter for a synthetic case, then mark every sentence you had to correct and why."
+  },
+  {
+   "id": "learn.wwl.enhance-productivity-prebuilt-agents",
+   "title": "Enhance your productivity with prebuilt Microsoft 365 Copilot agents",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/enhance-productivity-prebuilt-agents/",
+   "hours": 0.9,
+   "minutes": 57,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 1,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "agents",
+    "writing"
+   ],
+   "gwa": [
+    "4.A.4.c.1",
+    "4.A.2.b.6"
+   ],
+   "kind": "skill",
+   "proof_task": "Hand one weekly admin chore to a prebuilt agent and write a half-page note on what it got right, what it missed, and who signs off."
+  },
+  {
+   "id": "learn-bizapps.automate-process-using-flow",
+   "title": "Automate a business process using Power Automate",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/automate-process-power-automate/",
+   "hours": 4.6,
+   "minutes": 277,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 7,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "agents",
+    "doc"
+   ],
+   "gwa": [
+    "4.A.4.c.1",
+    "4.A.2.b.5",
+    "4.A.2.b.6",
+    "4.A.2.a.2"
+   ],
+   "kind": "skill",
+   "proof_task": "Automate one routine step (for example an acknowledgement email when a new form arrives) and mark the exact point where a human must approve."
+  },
+  {
+   "id": "learn-bizapps.introduction-process-advisor",
+   "title": "Get started with process mining in Power Automate",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/introduction-process-advisor/",
+   "hours": 3.1,
+   "minutes": 185,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 5,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "agents",
+    "data"
+   ],
+   "gwa": [
+    "4.A.1.a.2",
+    "4.A.2.b.6",
+    "4.A.4.c.3"
+   ],
+   "kind": "skill",
+   "proof_task": "Map a synthetic workflow from intake to close, find the slowest step, and propose one change with its expected effect."
+  },
+  {
+   "id": "learn.wwl.optimize-business-processes-ai",
+   "title": "Optimize business processes with Microsoft Copilot",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/optimize-business-processes-with-ai/",
+   "hours": 3.2,
+   "minutes": 193,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 5,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "agents",
+    "research"
+   ],
+   "gwa": [
+    "4.A.2.b.1",
+    "4.A.2.b.6",
+    "4.A.4.b.1"
+   ],
+   "kind": "skill",
+   "proof_task": "Write a one-page redesign of your team's weekly process that says which steps AI drafts and which steps people decide."
+  },
+  {
+   "id": "learn-bizapps.copilot-power-platform",
+   "title": "Get started with Copilot for Microsoft Power Platform",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/copilot-power-platform/",
+   "hours": 2.6,
+   "minutes": 157,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 4,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "agents",
+    "code"
+   ],
+   "gwa": [
+    "4.A.3.b.1",
+    "4.A.4.c.1"
+   ],
+   "kind": "skill",
+   "proof_task": "Build a small tracker app for a synthetic team with an AI helper and list three checks you ran before trusting it."
+  },
+  {
+   "id": "learn-bizapps.power-virtual-agents-workshop",
+   "title": "Create agents with Microsoft Copilot Studio - Online Workshop",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/power-virtual-agents-workshop/",
+   "hours": 2.9,
+   "minutes": 171,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 5,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "agents",
+    "speech"
+   ],
+   "gwa": [
+    "4.A.4.a.3",
+    "4.A.4.a.8",
+    "4.A.4.c.1"
+   ],
+   "kind": "skill",
+   "proof_task": "Build a simple FAQ agent from public policy text and write the hand-off rule for when it must pass to a person."
+  },
+  {
+   "id": "learn.wwl.prepare-visualize-data-power-bi",
+   "title": "Prepare and visualize data with Microsoft Power BI",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/prepare-visualize-data-power-bi/",
+   "hours": 8.2,
+   "minutes": 492,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 7,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "data"
+   ],
+   "gwa": [
+    "4.A.2.a.4",
+    "4.A.1.b.3",
+    "4.A.4.c.3",
+    "4.A.2.a.1"
+   ],
+   "kind": "skill",
+   "proof_task": "Build a one-page dashboard from 200 synthetic records: volume, cycle time and flagged outliers, with one written finding."
+  },
+  {
+   "id": "learn.wwl.get-started-querying-with-transact-sql",
+   "title": "Query and modify data with Transact-SQL",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/",
+   "hours": 5.8,
+   "minutes": 345,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 6,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "data",
+    "code"
+   ],
+   "gwa": [
+    "4.A.2.a.4",
+    "4.A.3.b.1",
+    "4.A.1.a.1"
+   ],
+   "kind": "skill",
+   "proof_task": "Write five SQL queries against a synthetic table that answer five real questions your team asks every month."
+  },
+  {
+   "id": "learn.wwl.get-started-with-python-fundamentals",
+   "title": "Get Started with Python Programming: Part 1 - Fundamentals",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/get-started-with-python-fundamentals/",
+   "hours": 3.2,
+   "minutes": 192,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 4,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "code",
+    "data"
+   ],
+   "gwa": [
+    "4.A.3.b.1"
+   ],
+   "kind": "skill",
+   "proof_task": "Write a short Python script that checks a synthetic CSV for missing fields and duplicates and prints a summary."
+  },
+  {
+   "id": "learn.wwl.describe-concepts-of-security-compliance-identity",
+   "title": "Introduction to security, compliance, and identity concepts",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/describe-concepts-of-security-compliance-identity/",
+   "hours": 1.6,
+   "minutes": 97,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 2,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "research"
+   ],
+   "gwa": [
+    "4.A.2.a.3"
+   ],
+   "kind": "skill",
+   "proof_task": "Take a synthetic case file and mark which fields are personal data, who may see them, and how long they should be kept."
+  },
+  {
+   "id": "learn.wwl.describe-capabilities-of-microsoft-compliance-solutions",
+   "title": "Introduction to Microsoft Purview and Microsoft's privacy principles",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/describe-capabilities-of-microsoft-compliance-solutions/",
+   "hours": 2.3,
+   "minutes": 140,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 4,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "research"
+   ],
+   "gwa": [
+    "4.A.2.a.3",
+    "4.A.2.b.3"
+   ],
+   "kind": "skill",
+   "proof_task": "Write a one-page privacy checklist for a team that starts using AI on customer files."
+  },
+  {
+   "id": "learn.github.responsible-ai",
+   "title": "GitHub responsible AI",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/github-responsible-ai/",
+   "hours": 2.2,
+   "minutes": 135,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 3,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "research"
+   ],
+   "gwa": [
+    "4.A.2.a.3",
+    "4.A.2.b.1",
+    "4.A.4.b.6"
+   ],
+   "kind": "skill",
+   "proof_task": "Write a review checklist for AI-suggested decisions: what to check for errors, bias and missing evidence before you sign."
+  },
+  {
+   "id": "learn.azure-evaluate-generative-ai-apps",
+   "title": "Evaluate generative AI applications",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/evaluate-generative-ai-apps/",
+   "hours": 1.6,
+   "minutes": 96,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 2,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "research",
+    "writing"
+   ],
+   "gwa": [
+    "4.A.2.a.1",
+    "4.A.2.a.3"
+   ],
+   "kind": "skill",
+   "proof_task": "Score 20 AI answers to synthetic customer questions on accuracy and tone, and report the three most common failure types."
+  },
+  {
+   "id": "learn.wwl.explore-business-value-generative-ai-solutions",
+   "title": "Explore the business value of generative AI solutions",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/",
+   "hours": 1.0,
+   "minutes": 62,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 2,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "human",
+    "research"
+   ],
+   "gwa": [
+    "4.A.2.b.4",
+    "4.A.4.b.6"
+   ],
+   "kind": "skill",
+   "proof_task": "Write a one-page business case for one AI use in your team, with cost, risk and who stays accountable."
+  },
+  {
+   "id": "learn.accessibility-fundamental",
+   "title": "Accessibility fundamentals",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/accessibility-fundamental/",
+   "hours": 2.8,
+   "minutes": 169,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 7,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "human"
+   ],
+   "gwa": [
+    "4.A.4.a.5",
+    "4.A.4.a.8"
+   ],
+   "kind": "skill",
+   "proof_task": "Audit one public form or letter your team sends for accessibility and rewrite it in plain language."
+  },
+  {
+   "id": "learn.intro-to-inclusive-design-practice",
+   "title": "Introduction to inclusive design in practice in collaboration with Teach Access",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/introduction-to-inclusive-design-practice/",
+   "hours": 5.7,
+   "minutes": 339,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 5,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "human"
+   ],
+   "gwa": [
+    "4.A.4.a.5",
+    "4.A.2.b.2",
+    "4.A.4.a.4"
+   ],
+   "kind": "skill",
+   "proof_task": "Interview two synthetic personas with different needs and redesign one step of a service to work for both."
+  },
+  {
+   "id": "learn.wwl.teamwork-specialist",
+   "title": "Collaborating with Microsoft Teams",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/teamwork-specialist/",
+   "hours": 2.5,
+   "minutes": 150,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 4,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "human",
+    "writing"
+   ],
+   "gwa": [
+    "4.A.4.a.2",
+    "4.A.4.b.1",
+    "4.A.4.b.2"
+   ],
+   "kind": "skill",
+   "proof_task": "Set up a shared channel for a synthetic project and write the team's working agreement in under 200 words."
+  },
+  {
+   "id": "learn-bizapps.get-started-sustainability",
+   "title": "Get started with Microsoft for Sustainability",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/get-started-sustainability/",
+   "hours": 1.1,
+   "minutes": 65,
+   "cost_rm": 0,
+   "level": [
+    "intermediate",
+    "beginner",
+    "advanced"
+   ],
+   "modules": 1,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "data",
+    "human"
+   ],
+   "gwa": [],
+   "kind": "purpose",
+   "proof_task": "Estimate the paper, travel or energy footprint of one team process and propose one measurable cut."
+  },
+  {
+   "id": "learn.philanthropies.introduction-to-ai-skills-for-nonprofits",
+   "title": "Introduction to AI Skills for nonprofits",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-skills-for-nonprofits/",
+   "hours": 2.6,
+   "minutes": 154,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 4,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "writing",
+    "agents",
+    "research"
+   ],
+   "gwa": [
+    "4.A.2.b.3",
+    "4.A.4.a.1"
+   ],
+   "kind": "literacy",
+   "proof_task": "Pick one community service process and write how AI could help the people it serves, and where it could harm them."
+  },
+  {
+   "id": "learn.ai-technical-concepts",
+   "title": "AI concepts for developers and technology professionals",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/ai-concepts/",
+   "hours": 3.9,
+   "minutes": 231,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 7,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "code",
+    "research",
+    "vision",
+    "speech",
+    "translation"
+   ],
+   "gwa": [
+    "4.A.2.b.3",
+    "4.A.3.b.1"
+   ],
+   "kind": "literacy",
+   "proof_task": "Explain in one page, for a non-technical colleague, how the AI tool that touches your work makes mistakes."
+  },
+  {
+   "id": "learn.wwl.get-started-fabric",
+   "title": "Get started with Microsoft Fabric",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/get-started-fabric/",
+   "hours": 7.5,
+   "minutes": 450,
+   "cost_rm": 0,
+   "level": [
+    "beginner"
+   ],
+   "modules": 8,
+   "provider_last_modified": "2026-10-21",
+   "last_checked": "2026-10-24T16:18:19Z",
+   "hrd_corp": null,
+   "caps": [
+    "data"
+   ],
+   "gwa": [
+    "4.A.2.a.4",
+    "4.A.1.a.2"
+   ],
+   "kind": "skill",
+   "proof_task": "Load a synthetic dataset, build one cleaned table and one chart, and write what the chart does not show."
+  }
+ ],
+ "dropped": []
+}

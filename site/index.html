@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oroboros · Your job, minus what AI absorbs, plus what you can grow into</title>
+<meta name="description" content="Oroboros shows which of your tasks AI may take over, under slow and fast futures, and which real job the rest can grow into. Built on O*NET 31.0, three published exposure datasets and live public signals.">
+<meta name="theme-color" content="#0c0a1d">
+<meta property="og:title" content="Oroboros · Consume. Regrow. Plan.">
+<meta property="og:description" content="See which parts of your job AI may absorb, and which real career the rest can grow into.">
+<meta property="og:type" content="website">
+<!-- DEPLOY STEP: set og:url and og:image to absolute URLs of the live site -->
+<meta property="og:image" content="assets/hero-ending.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1'%3E%3Cstop offset='0' stop-color='%23ff7a5c'/%3E%3Cstop offset='1' stop-color='%236ff0de'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230c0a1d'/%3E%3Ccircle cx='32' cy='33' r='17' fill='none' stroke='url(%23g)' stroke-width='6'/%3E%3Ccircle cx='41' cy='18.5' r='5' fill='%23efecff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css?v=7">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- One environment behind everything -->
+<div class="env" aria-hidden="true"><div class="env__nebula"></div><div class="env__grain"></div></div>
+<canvas class="motes" aria-hidden="true"></canvas>
+
+<nav class="nav" aria-label="Main">
+  <a class="brand" href="#top" aria-label="Oroboros, back to top">
+    <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="bm" x1="0" x2="1"><stop offset="0" stop-color="#ff7a5c"/><stop offset="1" stop-color="#6ff0de"/></linearGradient></defs><circle cx="20" cy="21" r="12" fill="none" stroke="url(#bm)" stroke-width="3.4"/><circle cx="26.5" cy="10.6" r="3.6" fill="#efecff"/></svg>
+    <span class="brand__word">OROBOROS</span>
+  </a>
+  <div class="nav__links">
+    <a href="#idea">The idea</a>
+    <a href="#how">How it works</a>
+    <a href="#engine">Try it</a>
+    <a href="#sources">Sources</a>
+    <a href="#faq">FAQ</a>
+  </div>
+  <a class="btn btn--small nav__cta" href="#engine" data-persona="huimin"><span class="long">Run Hui Min's job</span><span class="short">Try it</span></a>
+</nav>
+
+<main id="main" tabindex="-1">
+
+<!-- ============ HERO: scroll-scrubbed ring ============ -->
+<section class="hero" id="top" aria-label="Introduction">
+  <div class="stage">
+    <div class="poster" aria-hidden="true"></div>
+    <video class="hero__video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+    <div class="scrim" aria-hidden="true"></div>
+    <svg class="ring-loader" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="126" style="stroke-dashoffset:var(--ld,126)"/></svg>
+
+    <div class="band band--left band--one" data-band="0.00,0.22" data-fx="blur">
+      <p class="kicker chip">Career what-if engine</p>
+      <h1 class="band__h split">Your job is not a title.</h1>
+      <p class="band__sub">It is a bundle of tasks. Some of them are about to change hands.</p>
+    </div>
+    <div class="band band--left band--ember" data-band="0.27,0.50" data-fx="ember">
+      <h2 class="band__h split">AI eats some of them.</h2>
+      <p class="band__sub">Not overnight. One task at a time, faster in some futures than others.</p>
+    </div>
+    <div class="band band--right band--root" data-band="0.55,0.77" data-fx="root">
+      <h2 class="band__h split">What is left can regrow.</h2>
+      <p class="band__sub">Into a real job you can grow into, with a plan that fits your week.</p>
+    </div>
+    <div class="band band--center band--settle" data-band="0.82,1.00" data-fx="settle">
+      <p class="settle__eyebrow">Consume. Regrow. Plan.</p>
+      <h2 class="band__h split">See it on your own job.</h2>
+      <div class="settle__ctas">
+        <a class="btn" href="#engine" data-persona="huimin">Run Hui Min's job</a>
+        <a class="btn btn--ghost" href="#engine" data-persona="">Start with mine</a>
+      </div>
+    </div>
+
+    <div class="hero__static">
+      <p class="kicker chip">Career what-if engine</p>
+      <h1 class="static__h">Your job, minus what AI absorbs, plus what you can grow into.</h1>
+      <p class="static__sub">Oroboros shows which of your tasks AI may take over, under slow and fast futures, and which real job the rest can grow into.</p>
+      <div class="settle__ctas">
+        <a class="btn" href="#engine" data-persona="huimin">Run Hui Min's job</a>
+        <a class="btn btn--ghost" href="#engine" data-persona="">Start with mine</a>
+      </div>
+    </div>
+
+    <div class="cue" aria-hidden="true"><span>Scroll</span><i></i></div>
+  </div>
+</section>
+
+<!-- ============ THE IDEA ============ -->
+<section class="idea section" id="idea" aria-labelledby="idea-h">
+  <div class="wrap idea__grid">
+    <div class="idea__lead reveal">
+      <p class="eyebrow">The idea</p>
+      <h2 id="idea-h" class="display">AI changes tasks before it changes job titles.</h2>
+      <p class="lede">A job is a bundle of tasks. AI does not delete jobs overnight. It eats some tasks inside them, and what is left over becomes a different job. Oroboros shows a person that process, on their own work.</p>
+    </div>
+    <ol class="beats">
+      <li class="beat reveal" style="--i:0">
+        <span class="beat__n">01</span>
+        <h3 class="beat__h beat__h--ember">Consume</h3>
+        <p>We list your real tasks and show which ones AI is likely to absorb, using live public signals.</p>
+      </li>
+      <li class="beat reveal" style="--i:1">
+        <span class="beat__n">02</span>
+        <h3 class="beat__h beat__h--aqua">Regrow</h3>
+        <p>We match what is left to real occupations, or a blend of two, and show the gap to each.</p>
+      </li>
+      <li class="beat reveal" style="--i:2">
+        <span class="beat__n">03</span>
+        <h3 class="beat__h beat__h--pearl">Plan</h3>
+        <p>You get an ordered learning plan with free courses, hours per step and a proof task for each.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ PERSONA ============ -->
+<section class="persona section" aria-labelledby="persona-h">
+  <div class="wrap persona__grid">
+    <figure class="persona__card reveal">
+      <span class="tag tag--lilac">Synthetic persona</span>
+      <p class="persona__meta">Hui Min, 29 · Claims processor · Kuala Lumpur</p>
+      <blockquote id="persona-h" class="persona__quote">"I don't need fifty job ideas. I need to know which parts of my job to bet on, and what to learn first."</blockquote>
+      <figcaption class="persona__story">Her insurer just announced an AI triage pilot. She has about three months before her role is redesigned.</figcaption>
+    </figure>
+    <ul class="facts">
+      <li class="fact reveal" style="--i:0"><b class="fact__n" data-count="3">3</b><span>months until the redesign</span></li>
+      <li class="fact reveal" style="--i:1"><b class="fact__n" data-count="6">6</b><span>hours a week to learn</span></li>
+      <li class="fact reveal" style="--i:2"><b class="fact__n num">RM 0</b><span>budget, so free courses only</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="how section" id="how" aria-labelledby="how-h">
+  <svg class="how__ring" viewBox="0 0 600 600" aria-hidden="true"><circle class="draw" cx="300" cy="300" r="270" pathLength="1"/></svg>
+  <div class="wrap">
+    <p class="eyebrow reveal">How it works</p>
+    <h2 id="how-h" class="display reveal">Three formulas. Nothing hidden.</h2>
+    <p class="lede reveal">Every number in the app is computed by code from public data. The same three formulas are printed next to every result.</p>
+    <div class="formulas">
+      <article class="formula reveal" style="--i:0">
+        <span class="formula__tag">A · Momentum</span>
+        <code class="formula__code">m<sub>c</sub> = clamp( last 90 days ÷ past-year average, 0.8, 1.2 )</code>
+        <p>For each of ten AI capability areas we compare the last 90 days of arXiv papers, GitHub commits on reference projects and Hacker News hiring posts with that area's own past year. The cap keeps a noisy feed from taking over.</p>
+        <p class="assume">Modelling assumption, refreshed nightly.</p>
+      </article>
+      <article class="formula reveal" style="--i:1">
+        <span class="formula__tag">B · Absorption</span>
+        <code class="formula__code">A<sub>t</sub> = min( 1, E<sub>t</sub> × m<sub>c</sub> × s )</code>
+        <p>E<sub>t</sub> is the task's exposure from published datasets. We keep the lowest and the highest estimate, so when datasets disagree you see a range, not a fake single number. s is the scenario: Slow 0.6, Gradual 1.0, Shockwave 1.6.</p>
+        <p class="assume">Consumed at A ≥ 0.6 · shrinking 0.35 to 0.6 · safe below 0.35. If the range crosses a line, the task is marked uncertain.</p>
+      </article>
+      <article class="formula reveal" style="--i:2">
+        <span class="formula__tag">C · Ranking</span>
+        <code class="formula__code">Rank = Fit × Resilience</code>
+        <p>Fit is how much of a role's core work you already do. Resilience is how much of that role survives the same scenario, so we never send you to a job that is being eaten too.</p>
+        <p class="assume">Composite roles are always two real, named occupations. We never coin a title.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE ENGINE ============ -->
+<section class="engine section" id="engine" aria-labelledby="engine-h">
+  <div class="wrap">
+    <div class="engine__head">
+      <p class="eyebrow">Try it</p>
+      <h2 id="engine-h" class="display">Try it on a real job.</h2>
+      <p class="lede">Pick a synthetic persona or your own occupation. Everything runs in your browser. Nothing you type leaves this page.</p>
+    </div>
+  </div>
+
+  <div class="console" id="console">
+    <div class="console__bar">
+      <div class="console__who"><span class="dot"></span><span id="who">No job picked yet</span></div>
+      <div class="scenario">
+        <label for="scen" class="scenario__label">Scenario <b id="scen-name">Gradual Erosion</b> <code id="scen-s">s = 1.00</code></label>
+        <div class="scenario__track">
+          <span class="scenario__end">Slow drift</span>
+          <input id="scen" type="range" min="0" max="1000" value="500" step="1" aria-describedby="scen-help">
+          <span class="scenario__end">Fast Shockwave</span>
+        </div>
+        <span id="scen-help" class="sr">Drag to change how fast AI absorbs tasks. Every screen updates.</span>
+      </div>
+      <div class="console__data">
+        <label for="replay" class="sr">Signal snapshot</label>
+        <select id="replay" class="select"></select>
+        <span class="stamp" id="stamp">loading data</span>
+      </div>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Engine steps">
+      <button role="tab" id="tab-1" aria-controls="p-1" aria-selected="true" data-step="1"><i>1</i>Your job</button>
+      <button role="tab" id="tab-2" aria-controls="p-2" aria-selected="false" data-step="2"><i>2</i>Radar</button>
+      <button role="tab" id="tab-3" aria-controls="p-3" aria-selected="false" data-step="3"><i>3</i>Consume</button>
+      <button role="tab" id="tab-4" aria-controls="p-4" aria-selected="false" data-step="4"><i>4</i>Regrow</button>
+      <button role="tab" id="tab-5" aria-controls="p-5" aria-selected="false" data-step="5"><i>5</i>Plan &amp; SDGs</button>
+    </div>
+
+    <!-- 1. Intake -->
+    <div class="panel" role="tabpanel" id="p-1" aria-labelledby="tab-1">
+      <div class="panel__intro">
+        <h3>Tell us about your job</h3>
+        <p>Pick a persona, or search an occupation and tick the tasks you actually do. Set the hours each takes in a normal week.</p>
+      </div>
+      <div class="personas" id="personas" aria-label="Synthetic personas"></div>
+      <div class="intake">
+        <div class="intake__main">
+          <div class="search">
+            <label for="occ-q">Occupation <span class="muted">(923 with O*NET task lists)</span></label>
+            <input id="occ-q" type="search" autocomplete="off" placeholder="Try: claims, teacher, nurse, accountant" role="combobox" aria-expanded="false" aria-controls="occ-list" aria-autocomplete="list">
+            <ul id="occ-list" class="search__list" role="listbox" hidden></ul>
+          </div>
+          <div id="occ-head" class="occ-head"></div>
+          <div id="task-table" class="task-table"></div>
+        </div>
+        <aside class="intake__side">
+          <div class="side-card">
+            <label for="learn-h">Hours a week you can learn</label>
+            <div class="inline-range"><input id="learn-h" type="range" min="1" max="20" value="6"><output id="learn-h-out">6 h</output></div>
+          </div>
+          <details class="side-card" id="cards-box">
+            <summary>Reflection cards <span class="muted">(optional)</span></summary>
+            <p class="muted small">Six short questions with no timer. They tag your work style to O*NET work activities. They are prompts to think with, not a psychological test, and they never change a score.</p>
+            <div id="cards"></div>
+          </details>
+          <details class="side-card" id="cv-box">
+            <summary>Paste CV text instead <span class="muted">(optional)</span></summary>
+            <p class="muted small">Matched on this page by word overlap, nothing is sent. Please use made-up text: the demo is synthetic-only.</p>
+            <label for="cv" class="sr">CV text</label>
+            <textarea id="cv" rows="6" placeholder="e.g. Reviewed motor claims, checked documents against policy terms, entered payments in the claims system..."></textarea>
+            <button class="btn btn--ghost btn--small" id="cv-go" type="button">Find my tasks</button>
+            <p id="cv-out" class="small" aria-live="polite"></p>
+          </details>
+          <button class="btn btn--block" id="go-radar" type="button">See the signals</button>
+        </aside>
+      </div>
+    </div>
+
+    <!-- 2. Radar -->
+    <div class="panel" role="tabpanel" id="p-2" aria-labelledby="tab-2" hidden>
+      <div class="panel__intro">
+        <h3>Future Skills Radar</h3>
+        <p>How fast each AI capability is moving right now, from live public feeds. A reading above 1.0 means more activity than its own past year.</p>
+        <p class="note"><b>Modelling assumption.</b> <code id="m-formula"></code></p>
+      </div>
+      <div id="radar" class="radar"></div>
+      <p id="jobs-note" class="note small"></p>
+      <div class="panel__foot"><button class="btn" data-goto="3" type="button">See what AI may consume</button></div>
+    </div>
+
+    <!-- 3. Consume -->
+    <div class="panel" role="tabpanel" id="p-3" aria-labelledby="tab-3" hidden>
+      <div class="consume">
+        <div class="consume__ring">
+          <svg id="week-ring" viewBox="0 0 400 400" role="img" aria-labelledby="ring-title ring-desc">
+            <title id="ring-title">Your week as a ring</title>
+            <desc id="ring-desc">Each arc is one task, sized by hours. The coral arc shows the share of the week AI may absorb.</desc>
+          </svg>
+          <div class="legend">
+            <span><i class="sw sw--consumed"></i>Consumed</span>
+            <span><i class="sw sw--shrinking"></i>Shrinking</span>
+            <span><i class="sw sw--safe"></i>Safe</span>
+            <span><i class="sw sw--uncertain"></i>Uncertain</span>
+          </div>
+        </div>
+        <div class="consume__side">
+          <p class="summary" id="summary" aria-live="polite"></p>
+          <div class="counts" id="counts"></div>
+          <ul class="tasks-out" id="tasks-out"></ul>
+        </div>
+      </div>
+      <div class="panel__foot"><button class="btn" data-goto="4" type="button">See what can regrow</button></div>
+    </div>
+
+    <!-- 4. Regrow -->
+    <div class="panel" role="tabpanel" id="p-4" aria-labelledby="tab-4" hidden>
+      <div class="panel__intro">
+        <h3>What your work can regrow into</h3>
+        <p id="rank-count" class="muted"></p>
+        <label class="toggle"><input type="checkbox" id="widen"> Widen the search (Fit ≥ 0.20, job zones up to +2)</label>
+      </div>
+      <div id="composite" class="composite"></div>
+      <div class="regrow">
+        <ol id="roles" class="roles"></ol>
+        <aside class="regrow__side">
+          <div class="side-card">
+            <h4>No-regret skills</h4>
+            <p class="muted small">Gaps that show up in the top roles of all three futures, and stay human-led even in the fast one.</p>
+            <ul id="noregret" class="chips"></ul>
+          </div>
+          <div class="side-card">
+            <h4>Same person, three futures</h4>
+            <div id="compare" class="compare"></div>
+          </div>
+          <div class="side-card fair">
+            <h4>Fairness check</h4>
+            <p class="small">Ranking uses only tasks and hours. Name, age, gender and background are never inputs. Identical tasks under five different names give identical results, and that is tested on every build.</p>
+          </div>
+        </aside>
+      </div>
+      <div class="panel__foot"><button class="btn" data-goto="5" type="button">Build my plan</button></div>
+    </div>
+
+    <!-- 5. Plan + SDG -->
+    <div class="panel" role="tabpanel" id="p-5" aria-labelledby="tab-5" hidden>
+      <div class="plan-head">
+        <div>
+          <h3>Your learning plan</h3>
+          <label for="target" class="muted small">Grow toward</label>
+          <select id="target" class="select select--big"></select>
+        </div>
+        <dl class="plan-stats" id="plan-stats"></dl>
+      </div>
+      <div class="plan">
+        <ol id="steps" class="steps"></ol>
+        <aside class="sdg">
+          <div class="side-card">
+            <h4>SDG footprint</h4>
+            <div id="sdg-role"></div>
+            <div id="sdg-skills"></div>
+          </div>
+          <div class="side-card">
+            <h4>Purpose slider</h4>
+            <p class="muted small">Give extra weight to roles whose core work serves an SDG target. At 0 the ranking is the plain formula.</p>
+            <div class="inline-range"><input id="purpose" type="range" min="0" max="50" value="0"><output id="purpose-out">p = 0.00</output></div>
+            <code class="small" id="purpose-formula">Rank = Fit × Resilience × (1 + p × S)</code>
+            <ol id="purpose-list" class="mini-rank"></ol>
+          </div>
+          <div class="side-card">
+            <h4>Malaysia context</h4>
+            <ul id="mys" class="mys"></ul>
+          </div>
+        </aside>
+      </div>
+      <div class="explain side-card">
+        <div class="explain__head">
+          <h4>In plain words</h4>
+          <span class="stamp" id="llm-stamp">LLM: not connected · template text from computed results</span>
+        </div>
+        <div id="explain" class="explain__body"></div>
+        <div class="explain__actions">
+          <button class="btn btn--ghost btn--small" id="dl-md" type="button">Download plan (.md)</button>
+          <button class="btn btn--ghost btn--small" id="print" type="button">Print</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="console__boot" id="boot" role="status">Loading O*NET tasks, exposure data and tonight's signals</div>
+  </div>
+</section>
+
+<!-- ============ SOURCES ============ -->
+<section class="sources section" id="sources" aria-labelledby="sources-h">
+  <div class="wrap sources__grid">
+    <div>
+      <p class="eyebrow reveal">Sources</p>
+      <h2 id="sources-h" class="display reveal">Every number has a date.</h2>
+      <p class="lede reveal">Layers that change by release show a version. The live layer shows when it was fetched. If a feed fails, the site keeps the last good snapshot and says so.</p>
+      <div class="ledger reveal" id="ledger"></div>
+    </div>
+    <aside class="limits reveal">
+      <h3>Known limits, said up front</h3>
+      <ul>
+        <li><b>O*NET is US-based.</b> It is the most detailed open task database, but it describes US jobs. Malaysian job titles map to it through ISCO-08 codes, the base of MASCO. Treat the match as close, not exact.</li>
+        <li><b>Exposure is not job loss.</b> The datasets say which tasks an AI system could speed up, not which jobs disappear.</li>
+        <li><b>Exposure data update by release, not daily.</b> Only the momentum layer updates nightly.</li>
+        <li><b>Robots are under-counted.</b> The exposure datasets measure language-model AI. Physical work can look safer here than it is.</li>
+        <li><b>Momentum is our assumption.</b> The 0.8 to 1.2 cap and the scenario speeds are stated choices, printed on every screen.</li>
+        <li><b>The jobs feed is young.</b> It joins the momentum score after 90 days of nightly history.</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq section" id="faq" aria-labelledby="faq-h">
+  <div class="wrap faq__wrap">
+    <h2 id="faq-h" class="display reveal">Fair questions.</h2>
+    <div class="faq__list">
+      <details class="qa reveal"><summary>Will AI take my job?</summary><p>We do not predict that, and nobody can honestly. We show which tasks inside your job are exposed, under three stated assumptions, and what you can build from the rest.</p></details>
+      <details class="qa reveal"><summary>Where do the numbers come from?</summary><p>Tasks come from O*NET 31.0. Exposure comes from three published datasets, kept separate so their disagreement shows as a range. Momentum comes from arXiv, Hacker News, GitHub and job boards, refreshed every night. Every chart says where and when.</p></details>
+      <details class="qa reveal"><summary>Why US data for a Malaysian worker?</summary><p>O*NET is the most detailed open task database there is, and it is US-based. Malaysian job titles map to it through the ISCO occupation codes that MASCO also uses. We flag this on every screen instead of hiding it.</p></details>
+      <details class="qa reveal"><summary>Is anything I type stored?</summary><p>No. The engine runs in your browser. The demo uses five synthetic people. Please do not paste a real CV with personal details.</p></details>
+      <details class="qa reveal"><summary>Which AI model is used?</summary><p>The core uses no language model at all. Two optional jobs, reading pasted CV text and writing plain-language summaries, use Qwen2.5-7B-Instruct. Every role, task and course it mentions is checked against our database first, or dropped.</p></details>
+      <details class="qa reveal"><summary>Can a company use this to decide who to let go?</summary><p>No. Oroboros is for the person doing the job. It does not rate people and must not be used for hiring or firing decisions.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLOSING ============ -->
+<section class="closing" aria-labelledby="closing-h">
+  <div class="closing__bg" aria-hidden="true"></div>
+  <div class="wrap closing__inner reveal">
+    <h2 id="closing-h" class="display">Your week, redrawn.</h2>
+    <p class="lede">Three minutes. One real job. A plan you can start on Monday.</p>
+    <a class="btn" href="#engine" data-persona="huimin">Run Hui Min's job</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <a class="brand" href="#top"><svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="21" r="12" fill="none" stroke="url(#bm)" stroke-width="3.4"/><circle cx="26.5" cy="10.6" r="3.6" fill="#efecff"/></svg><span class="brand__word">OROBOROS</span></a>
+      <p class="small muted">Built for the Aiversecity Future-Ready Workforce hackathon. A decision aid for the person doing the job. Not a hiring tool, and not a prediction of who loses work.</p>
+    </div>
+    <div class="small muted">
+      <p>This product uses information from the <a href="https://www.onetcenter.org/database.html">O*NET 31.0 Database</a> by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), licensed under <a href="https://www.onetcenter.org/license_db.html">CC BY 4.0</a>. O*NET® is a trademark of USDOL/ETA. Task exposure ranges, capability mapping, scenarios and SDG tags are our additions, not O*NET forecasts or endorsements.</p>
+      <p>Exposure: <a href="https://github.com/openai/GPTs-are-GPTs">GPTs are GPTs</a> (MIT), <a href="https://huggingface.co/datasets/Anthropic/EconomicIndex">Anthropic Economic Index</a> (MIT), <a href="https://github.com/AIOE-Data/AIOE">Felten et al. AIOE</a> (research use). Signals: arXiv API, HN Algolia API, GitHub REST API, Remotive and Arbeitnow. Courses: Microsoft Learn Catalog API. SDG targets: UN Stats SDG API.</p>
+      <p>Language model: Qwen2.5-7B-Instruct (optional, open weights). All people in the demo are synthetic. Hero imagery is AI generated with Higgsfield.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/engine.js?v=7"></script>
+<script src="assets/js/site.js?v=7"></script>
+<script src="assets/js/app.js?v=7"></script>
+</body>
+</html>

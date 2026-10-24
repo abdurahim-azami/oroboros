@@ -1,0 +1,534 @@
+{
+ "as_of": "2026-07-26",
+ "snapshot_day": "2026-10-24",
+ "kind": "replay",
+ "formula": "m_c = clamp( geomean_f( sum(last 90 days) / (past-year total / 4) ), 0.8, 1.2 )",
+ "cap": [
+  0.8,
+  1.2
+ ],
+ "computed_at": "2026-10-24T16:09:33Z",
+ "jobs_note": "Jobs feed is building history (needs 90+ days of nightly snapshots); not yet in m_c.",
+ "sources": {
+  "arxiv": {
+   "label": "arXiv API",
+   "url": "https://export.arxiv.org/api/query",
+   "fetched_at": "2026-10-24T15:55:59Z",
+   "row_count": 210,
+   "unit": "papers submitted per 30-day window"
+  },
+  "hn": {
+   "label": "HN Algolia API (Who is hiring)",
+   "url": "https://hn.algolia.com/api",
+   "fetched_at": "2026-10-24T16:00:51Z",
+   "row_count": 210,
+   "unit": "share of hiring-thread comments mentioning the area"
+  },
+  "github": {
+   "label": "GitHub REST API",
+   "url": "https://docs.github.com/en/rest/metrics/statistics",
+   "fetched_at": "2026-10-24T15:55:59Z",
+   "row_count": 1040,
+   "unit": "commits per week on reference repositories"
+  },
+  "jobs": {
+   "label": "Remotive + Arbeitnow job APIs",
+   "url": "https://remotive.com/api/remote-jobs ; https://www.arbeitnow.com/api/job-board-api",
+   "fetched_at": "2026-10-24T15:52:11Z",
+   "row_count": 1510,
+   "unit": "postings mentioning the area, per daily snapshot"
+  }
+ },
+ "areas": [
+  {
+   "id": "doc",
+   "name": "Document processing",
+   "blurb": "Reading forms, scans, invoices and claims files, and pulling out the fields.",
+   "raw_ratio": 1.2367,
+   "m": 1.2,
+   "capped": true,
+   "feeds": {
+    "arxiv": {
+     "ratio": 0.9807,
+     "last90": 178,
+     "year": 726,
+     "series": [
+      55,
+      52,
+      55,
+      68,
+      56,
+      44,
+      67,
+      80,
+      71,
+      62,
+      60,
+      56
+     ]
+    },
+    "hn": {
+     "ratio": 1.5594,
+     "series": [
+      0.0,
+      0.0,
+      0.0086,
+      0.00345,
+      0.00917,
+      0.01244,
+      0.01014,
+      0.00866,
+      0.0,
+      0.00184,
+      0.0102,
+      0.02148
+     ],
+     "last90_mentions": 15
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "writing",
+   "name": "Writing and summarising",
+   "blurb": "Drafting letters, reports and replies, and summarising long text.",
+   "raw_ratio": 1.1174,
+   "m": 1.1174,
+   "capped": false,
+   "feeds": {
+    "arxiv": {
+     "ratio": 1.1596,
+     "last90": 1050,
+     "year": 3622,
+     "series": [
+      260,
+      297,
+      379,
+      223,
+      243,
+      266,
+      324,
+      276,
+      304,
+      386,
+      371,
+      293
+     ]
+    },
+    "hn": {
+     "ratio": 1.0767,
+     "series": [
+      0.05843,
+      0.05643,
+      0.05806,
+      0.05172,
+      0.04954,
+      0.06716,
+      0.05068,
+      0.06277,
+      0.07424,
+      0.05525,
+      0.07755,
+      0.06205
+     ],
+     "last90_mentions": 94
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "code",
+   "name": "Code generation",
+   "blurb": "Writing, fixing and explaining software.",
+   "raw_ratio": 1.1565,
+   "m": 1.1565,
+   "capped": false,
+   "feeds": {
+    "arxiv": {
+     "ratio": 1.1738,
+     "last90": 559,
+     "year": 1905,
+     "series": [
+      141,
+      121,
+      177,
+      131,
+      127,
+      111,
+      174,
+      175,
+      189,
+      242,
+      171,
+      146
+     ]
+    },
+    "hn": {
+     "ratio": 1.1395,
+     "series": [
+      0.02921,
+      0.0316,
+      0.02796,
+      0.03103,
+      0.02202,
+      0.0199,
+      0.05068,
+      0.04545,
+      0.04148,
+      0.02762,
+      0.03673,
+      0.05489
+     ],
+     "last90_mentions": 56
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "agents",
+   "name": "Agents and tool use",
+   "blurb": "Software that plans steps, calls tools and runs workflows on its own.",
+   "raw_ratio": 1.226,
+   "m": 1.2,
+   "capped": true,
+   "feeds": {
+    "arxiv": {
+     "ratio": 1.398,
+     "last90": 8552,
+     "year": 24469,
+     "series": [
+      1297,
+      1393,
+      1849,
+      1541,
+      1383,
+      1509,
+      2265,
+      2325,
+      2355,
+      3083,
+      3077,
+      2392
+     ]
+    },
+    "hn": {
+     "ratio": 1.0752,
+     "series": [
+      0.0809,
+      0.0474,
+      0.06237,
+      0.07931,
+      0.05505,
+      0.08458,
+      0.07432,
+      0.09091,
+      0.09825,
+      0.0663,
+      0.1,
+      0.08115
+     ],
+     "last90_mentions": 119
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "speech",
+   "name": "Speech and conversation",
+   "blurb": "Transcribing calls, talking to customers, voice assistants.",
+   "raw_ratio": 0.8167,
+   "m": 0.8167,
+   "capped": false,
+   "feeds": {
+    "arxiv": {
+     "ratio": 1.1272,
+     "last90": 390,
+     "year": 1384,
+     "series": [
+      122,
+      158,
+      115,
+      77,
+      61,
+      98,
+      107,
+      154,
+      102,
+      97,
+      187,
+      106
+     ]
+    },
+    "hn": {
+     "ratio": 0.5918,
+     "series": [
+      0.01348,
+      0.00903,
+      0.02151,
+      0.01552,
+      0.00734,
+      0.01244,
+      0.01182,
+      0.00649,
+      0.00437,
+      0.0,
+      0.00816,
+      0.00955
+     ],
+     "last90_mentions": 8
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "vision",
+   "name": "Vision",
+   "blurb": "Looking at photos and video: damage, defects, identity, scenes.",
+   "raw_ratio": 1.1212,
+   "m": 1.1212,
+   "capped": false,
+   "feeds": {
+    "arxiv": {
+     "ratio": 1.1563,
+     "last90": 2907,
+     "year": 10056,
+     "series": [
+      733,
+      710,
+      810,
+      821,
+      673,
+      580,
+      851,
+      1102,
+      869,
+      1027,
+      1045,
+      835
+     ]
+    },
+    "hn": {
+     "ratio": 1.0871,
+     "series": [
+      0.01348,
+      0.0158,
+      0.01505,
+      0.01724,
+      0.01651,
+      0.01741,
+      0.0152,
+      0.01732,
+      0.01092,
+      0.01473,
+      0.02041,
+      0.01671
+     ],
+     "last90_mentions": 25
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "translation",
+   "name": "Translation",
+   "blurb": "Moving text and speech between languages.",
+   "raw_ratio": 0.4774,
+   "m": 0.8,
+   "capped": true,
+   "feeds": {
+    "arxiv": {
+     "ratio": 0.8841,
+     "last90": 103,
+     "year": 466,
+     "series": [
+      38,
+      51,
+      49,
+      34,
+      22,
+      33,
+      58,
+      48,
+      30,
+      45,
+      39,
+      19
+     ]
+    },
+    "hn": {
+     "ratio": 0.2578,
+     "series": [
+      0.00899,
+      0.0,
+      0.00215,
+      0.00517,
+      0.0,
+      0.0,
+      0.00169,
+      0.00216,
+      0.00655,
+      0.00184,
+      0.0,
+      0.0
+     ],
+     "last90_mentions": 1
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "data",
+   "name": "Data analysis and forecasting",
+   "blurb": "Spreadsheets, anomaly and fraud checks, forecasts, dashboards.",
+   "raw_ratio": 1.0004,
+   "m": 1.0004,
+   "capped": false,
+   "feeds": {
+    "arxiv": {
+     "ratio": 1.0275,
+     "last90": 718,
+     "year": 2795,
+     "series": [
+      269,
+      215,
+      262,
+      253,
+      174,
+      167,
+      265,
+      271,
+      201,
+      291,
+      241,
+      186
+     ]
+    },
+    "hn": {
+     "ratio": 0.9741,
+     "series": [
+      0.05169,
+      0.05192,
+      0.06452,
+      0.03448,
+      0.04404,
+      0.05473,
+      0.05068,
+      0.04545,
+      0.06114,
+      0.05709,
+      0.05714,
+      0.03341
+     ],
+     "last90_mentions": 73
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "research",
+   "name": "Research and reasoning",
+   "blurb": "Looking things up, checking rules, weighing evidence, making a call.",
+   "raw_ratio": 1.0855,
+   "m": 1.0855,
+   "capped": false,
+   "feeds": {
+    "arxiv": {
+     "ratio": 1.0374,
+     "last90": 3970,
+     "year": 15308,
+     "series": [
+      1149,
+      1096,
+      1543,
+      1182,
+      950,
+      1177,
+      1449,
+      1326,
+      1466,
+      1526,
+      1439,
+      1005
+     ]
+    },
+    "hn": {
+     "ratio": 1.1358,
+     "series": [
+      0.03371,
+      0.02257,
+      0.0172,
+      0.01379,
+      0.02202,
+      0.03234,
+      0.02703,
+      0.03896,
+      0.03275,
+      0.0221,
+      0.03265,
+      0.04057
+     ],
+     "last90_mentions": 45
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "robotics",
+   "name": "Robotics and physical work",
+   "blurb": "Machines that move, lift, drive and repair in the real world.",
+   "raw_ratio": 1.2198,
+   "m": 1.2,
+   "capped": true,
+   "feeds": {
+    "arxiv": {
+     "ratio": 1.2162,
+     "last90": 3850,
+     "year": 12662,
+     "series": [
+      786,
+      1087,
+      1047,
+      898,
+      799,
+      616,
+      1132,
+      1473,
+      974,
+      1151,
+      1522,
+      1177
+     ]
+    },
+    "hn": {
+     "ratio": 1.2235,
+     "series": [
+      0.01573,
+      0.0158,
+      0.01505,
+      0.02069,
+      0.02202,
+      0.03483,
+      0.02534,
+      0.01515,
+      0.04585,
+      0.02394,
+      0.03061,
+      0.03819
+     ],
+     "last90_mentions": 44
+    }
+   },
+   "no_feed": false
+  },
+  {
+   "id": "human",
+   "name": "Human-centred work",
+   "blurb": "Care, trust, negotiation, coaching and leadership. No feed: momentum fixed at 1.0.",
+   "raw_ratio": 1.0,
+   "m": 1.0,
+   "capped": false,
+   "feeds": {},
+   "no_feed": true
+  }
+ ]
+}
