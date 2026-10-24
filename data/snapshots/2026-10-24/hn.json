@@ -1,6 +1,6 @@
 {
  "source": "hn",
- "fetched_at": "2026-10-24T17:32:35Z",
+ "fetched_at": "2026-10-24T18:46:43Z",
  "row_count": 210,
  "label": "HN Algolia API (Who is hiring)",
  "url": "https://hn.algolia.com/api",
@@ -125,7 +125,7 @@
     "id": 49522897,
     "title": "Ask HN: Who is hiring? (September 2026)",
     "date": "2026-09-01",
-    "comments": 390
+    "comments": 389
    },
    {
     "id": 49922569,
@@ -261,8 +261,8 @@
      {
       "date": "2026-09-01",
       "mentions": 4,
-      "comments": 390,
-      "value": 0.01026
+      "comments": 389,
+      "value": 0.01028
      },
      {
       "date": "2026-10-01",
@@ -397,9 +397,9 @@
      },
      {
       "date": "2026-09-01",
-      "mentions": 29,
-      "comments": 390,
-      "value": 0.07436
+      "mentions": 28,
+      "comments": 389,
+      "value": 0.07198
      },
      {
       "date": "2026-10-01",
@@ -534,9 +534,9 @@
      },
      {
       "date": "2026-09-01",
-      "mentions": 13,
-      "comments": 390,
-      "value": 0.03333
+      "mentions": 12,
+      "comments": 389,
+      "value": 0.03085
      },
      {
       "date": "2026-10-01",
@@ -671,9 +671,9 @@
      },
      {
       "date": "2026-09-01",
-      "mentions": 39,
-      "comments": 390,
-      "value": 0.1
+      "mentions": 37,
+      "comments": 389,
+      "value": 0.09512
      },
      {
       "date": "2026-10-01",
@@ -809,8 +809,8 @@
      {
       "date": "2026-09-01",
       "mentions": 10,
-      "comments": 390,
-      "value": 0.02564
+      "comments": 389,
+      "value": 0.02571
      },
      {
       "date": "2026-10-01",
@@ -945,8 +945,8 @@
      {
       "date": "2026-09-01",
       "mentions": 6,
-      "comments": 390,
-      "value": 0.01538
+      "comments": 389,
+      "value": 0.01542
      },
      {
       "date": "2026-10-01",
@@ -1080,8 +1080,8 @@
      {
       "date": "2026-09-01",
       "mentions": 1,
-      "comments": 390,
-      "value": 0.00256
+      "comments": 389,
+      "value": 0.00257
      },
      {
       "date": "2026-10-01",
@@ -1217,8 +1217,8 @@
      {
       "date": "2026-09-01",
       "mentions": 20,
-      "comments": 390,
-      "value": 0.05128
+      "comments": 389,
+      "value": 0.05141
      },
      {
       "date": "2026-10-01",
@@ -1354,8 +1354,8 @@
      {
       "date": "2026-09-01",
       "mentions": 11,
-      "comments": 390,
-      "value": 0.02821
+      "comments": 389,
+      "value": 0.02828
      },
      {
       "date": "2026-10-01",
@@ -1490,8 +1490,8 @@
      {
       "date": "2026-09-01",
       "mentions": 14,
-      "comments": 390,
-      "value": 0.0359
+      "comments": 389,
+      "value": 0.03599
      },
      {
       "date": "2026-10-01",
