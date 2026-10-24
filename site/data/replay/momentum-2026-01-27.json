@@ -7,7 +7,7 @@
   0.8,
   1.2
  ],
- "computed_at": "2026-10-24T16:09:33Z",
+ "computed_at": "2026-10-24T17:40:47Z",
  "jobs_note": "Jobs feed is building history (needs 90+ days of nightly snapshots); not yet in m_c.",
  "sources": {
   "arxiv": {
@@ -20,21 +20,21 @@
   "hn": {
    "label": "HN Algolia API (Who is hiring)",
    "url": "https://hn.algolia.com/api",
-   "fetched_at": "2026-10-24T16:00:51Z",
+   "fetched_at": "2026-10-24T17:32:35Z",
    "row_count": 210,
    "unit": "share of hiring-thread comments mentioning the area"
   },
   "github": {
    "label": "GitHub REST API",
    "url": "https://docs.github.com/en/rest/metrics/statistics",
-   "fetched_at": "2026-10-24T15:55:59Z",
-   "row_count": 1040,
+   "fetched_at": "2026-10-24T17:37:11Z",
+   "row_count": 1144,
    "unit": "commits per week on reference repositories"
   },
   "jobs": {
    "label": "Remotive + Arbeitnow job APIs",
    "url": "https://remotive.com/api/remote-jobs ; https://www.arbeitnow.com/api/job-board-api",
-   "fetched_at": "2026-10-24T15:52:11Z",
+   "fetched_at": "2026-10-24T17:40:42Z",
    "row_count": 1510,
    "unit": "postings mentioning the area, per daily snapshot"
   }

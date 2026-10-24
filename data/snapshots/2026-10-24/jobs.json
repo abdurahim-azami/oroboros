@@ -1,6 +1,6 @@
 {
  "source": "jobs",
- "fetched_at": "2026-10-24T15:52:11Z",
+ "fetched_at": "2026-10-24T17:40:42Z",
  "row_count": 1510,
  "label": "Remotive + Arbeitnow job APIs",
  "url": "https://remotive.com/api/remote-jobs ; https://www.arbeitnow.com/api/job-board-api",
@@ -25,16 +25,16 @@
    "arbeitnow": {
     "postings": 1500,
     "mentions": {
-     "doc": 52,
-     "writing": 175,
-     "code": 71,
-     "agents": 241,
+     "doc": 53,
+     "writing": 173,
+     "code": 73,
+     "agents": 243,
      "speech": 20,
-     "vision": 14,
+     "vision": 13,
      "translation": 25,
-     "data": 214,
-     "research": 864,
-     "robotics": 71
+     "data": 216,
+     "research": 875,
+     "robotics": 72
     }
    }
   }

@@ -7,7 +7,7 @@
   0.8,
   1.2
  ],
- "computed_at": "2026-10-24T16:09:33Z",
+ "computed_at": "2026-10-24T17:40:47Z",
  "jobs_note": "Jobs feed is building history (needs 90+ days of nightly snapshots); not yet in m_c.",
  "sources": {
   "arxiv": {
@@ -20,21 +20,21 @@
   "hn": {
    "label": "HN Algolia API (Who is hiring)",
    "url": "https://hn.algolia.com/api",
-   "fetched_at": "2026-10-24T16:00:51Z",
+   "fetched_at": "2026-10-24T17:32:35Z",
    "row_count": 210,
    "unit": "share of hiring-thread comments mentioning the area"
   },
   "github": {
    "label": "GitHub REST API",
    "url": "https://docs.github.com/en/rest/metrics/statistics",
-   "fetched_at": "2026-10-24T15:55:59Z",
-   "row_count": 1040,
+   "fetched_at": "2026-10-24T17:37:11Z",
+   "row_count": 1144,
    "unit": "commits per week on reference repositories"
   },
   "jobs": {
    "label": "Remotive + Arbeitnow job APIs",
    "url": "https://remotive.com/api/remote-jobs ; https://www.arbeitnow.com/api/job-board-api",
-   "fetched_at": "2026-10-24T15:52:11Z",
+   "fetched_at": "2026-10-24T17:40:42Z",
    "row_count": 1510,
    "unit": "postings mentioning the area, per daily snapshot"
   }
@@ -321,7 +321,7 @@
    "id": "speech",
    "name": "Speech and conversation",
    "blurb": "Transcribing calls, talking to customers, voice assistants.",
-   "raw_ratio": 1.8614,
+   "raw_ratio": 1.2608,
    "m": 1.2,
    "capped": true,
    "feeds": {
@@ -363,24 +363,25 @@
      "last90_mentions": 21
     },
     "github": {
-     "ratio": 2.9474,
+     "ratio": 0.9159,
      "series": [
-      3,
-      0,
-      0,
-      0,
-      1,
-      1,
-      0,
-      0,
-      0,
-      2,
-      1,
-      11
+      54,
+      50,
+      76,
+      87,
+      122,
+      67,
+      27,
+      28,
+      48,
+      55,
+      51,
+      60
      ],
      "repos": [
       "openai/whisper",
-      "SYSTRAN/faster-whisper"
+      "SYSTRAN/faster-whisper",
+      "k2-fsa/sherpa-onnx"
      ]
     }
    },
@@ -390,8 +391,8 @@
    "id": "vision",
    "name": "Vision",
    "blurb": "Looking at photos and video: damage, defects, identity, scenes.",
-   "raw_ratio": 1.0449,
-   "m": 1.0449,
+   "raw_ratio": 1.1757,
+   "m": 1.1757,
    "capped": false,
    "feeds": {
     "arxiv": {
@@ -430,6 +431,27 @@
       0.0202
      ],
      "last90_mentions": 17
+    },
+    "github": {
+     "ratio": 1.4884,
+     "series": [
+      59,
+      0,
+      72,
+      101,
+      22,
+      57,
+      24,
+      69,
+      82,
+      51,
+      107,
+      130
+     ],
+     "repos": [
+      "facebookresearch/sam2",
+      "roboflow/supervision"
+     ]
     }
    },
    "no_feed": false
