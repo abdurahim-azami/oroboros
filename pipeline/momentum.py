@@ -26,16 +26,30 @@ from common import SITE_DATA, SNAPSHOTS, iso, load_capabilities, now_utc
 CAP_LO, CAP_HI = 0.8, 1.2
 
 
+def snapshot_days() -> list[str]:
+    return sorted(p.name for p in SNAPSHOTS.iterdir() if p.is_dir())
+
+
 def latest_day() -> str:
-    days = sorted(p.name for p in SNAPSHOTS.iterdir() if p.is_dir() and (p / "arxiv.json").exists())
+    days = [d for d in snapshot_days() if any((SNAPSHOTS / d / f"{s}.json").exists() for s in ("arxiv", "hn", "github"))]
     if not days:
-        raise SystemExit("No snapshot with arxiv.json yet. Run the ingest scripts first.")
+        raise SystemExit("No snapshots yet. Run the ingest scripts first.")
     return days[-1]
 
 
 def load(day: str, source: str) -> dict | None:
     p = SNAPSHOTS / day / f"{source}.json"
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+
+
+def latest(source: str, upto: str, area: str | None = None) -> dict | None:
+    """Newest snapshot of `source` on or before `upto`. With `area` (arXiv), newest one that
+    holds that area, so one failed night falls back per area, not for every feed."""
+    for d in reversed([x for x in snapshot_days() if x <= upto]):
+        doc = load(d, source)
+        if doc and (area is None or area in doc["data"]):
+            return doc
+    return None
 
 
 def ratio(values: list[float]) -> float | None:
@@ -96,7 +110,8 @@ def jobs_history(end: dt.date) -> dict[str, list[float]]:
 
 def compute(day: str, offset_windows: int = 0) -> dict:
     """offset_windows=k reads the series as it stood 30*k days before the snapshot day."""
-    arxiv, hn, gh = load(day, "arxiv"), load(day, "hn"), load(day, "github")
+    hn, gh, jobs_doc = latest("hn", day), latest("github", day), latest("jobs", day)
+    arxiv_used = {}   # area -> the arXiv snapshot it came from (per-area fallback)
     snap_end = dt.date.fromisoformat(day)
     as_of = snap_end - dt.timedelta(days=30 * offset_windows)
     jobs = jobs_history(as_of)
@@ -105,13 +120,16 @@ def compute(day: str, offset_windows: int = 0) -> dict:
         aid = area["id"]
         feeds = {}
         if aid != "human":
-            if arxiv and aid in arxiv["data"]:
+            arxiv = latest("arxiv", day, aid)
+            if arxiv:
+                arxiv_used[aid] = arxiv
                 s = arxiv["data"][aid]["series"]
                 vals = [w["value"] for w in s][: len(s) - offset_windows]
                 r = ratio(vals)
                 if r:
                     feeds["arxiv"] = {"ratio": round(r, 4), "last90": int(sum(vals[-3:])),
-                                      "year": int(sum(vals[-12:])), "series": vals[-12:]}
+                                      "year": int(sum(vals[-12:])), "series": vals[-12:],
+                                      "fetched_at": arxiv["fetched_at"]}
             if hn and aid in hn["data"]["areas"]:
                 vals = hn_windows(hn["data"]["areas"][aid]["series"], as_of, 12)
                 r = ratio(vals) if vals else None
@@ -139,12 +157,17 @@ def compute(day: str, offset_windows: int = 0) -> dict:
         areas.append({"id": aid, "name": area["name"], "blurb": area["blurb"],
                       "raw_ratio": round(raw, 4), "m": round(m, 4), "capped": raw != m,
                       "feeds": feeds, "no_feed": aid == "human"})
+    newest_arxiv = max(arxiv_used.values(), key=lambda d: d["fetched_at"], default=None)
     stamp = {}
-    for name, doc in (("arxiv", arxiv), ("hn", hn), ("github", gh), ("jobs", load(day, "jobs"))):
+    for name, doc in (("arxiv", newest_arxiv), ("hn", hn), ("github", gh), ("jobs", jobs_doc)):
         if doc:
             stamp[name] = {"label": doc.get("label", name), "url": doc.get("url"),
                            "fetched_at": doc["fetched_at"], "row_count": doc["row_count"],
                            "unit": doc.get("unit")}
+    if newest_arxiv:
+        older = sorted(a for a, d in arxiv_used.items() if d["fetched_at"] != newest_arxiv["fetched_at"])
+        if older:   # said out loud on the Radar instead of hidden
+            stamp["arxiv"]["older_areas"] = older
     return {
         "as_of": as_of.isoformat(),
         "snapshot_day": day,
@@ -152,6 +175,7 @@ def compute(day: str, offset_windows: int = 0) -> dict:
         "formula": "m_c = clamp( geomean_f( sum(last 90 days) / (past-year total / 4) ), 0.8, 1.2 )",
         "cap": [CAP_LO, CAP_HI],
         "computed_at": iso(now_utc()),
+        "fetched_at": max((v["fetched_at"] for v in stamp.values()), default=None),
         "jobs_note": ("Jobs feed active." if jobs else
                       "Jobs feed is building history (needs 90+ days of nightly snapshots); not yet in m_c."),
         "sources": stamp,

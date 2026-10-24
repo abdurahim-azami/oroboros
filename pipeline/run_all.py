@@ -30,18 +30,19 @@ def run(args: list[str], must: bool = False) -> bool:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--full", action="store_true")
-    ap.add_argument("--arxiv-windows", default="21")
+    ap.add_argument("--arxiv-windows", default=None, help="default 13 nightly, 21 with --full (replay needs 21)")
     a = ap.parse_args()
     results = {}
     if a.full:
         for step in (["pipeline/fetch_static.py"], ["pipeline/load_db.py"], ["pipeline/build_site.py"],
                      ["pipeline/courses.py"], ["pipeline/sdg.py"]):
             results[step[0]] = run(step, must=True)
-    results["arxiv"] = run(["pipeline/ingest/arxiv.py", "--windows", a.arxiv_windows])
+    windows = a.arxiv_windows or ("21" if a.full else "13")
+    results["arxiv"] = run(["pipeline/ingest/arxiv.py", "--windows", windows])
     results["hn"] = run(["pipeline/ingest/hn.py"])
     results["github"] = run(["pipeline/ingest/github.py"])
     results["jobs"] = run(["pipeline/ingest/jobs.py"])
-    results["momentum"] = run(["pipeline/momentum.py", "--replay"], must=True)
+    results["momentum"] = run(["pipeline/momentum.py"] + (["--replay"] if a.full else []), must=True)
     results["linkcheck"] = run(["pipeline/courses.py", "--check"])
     print("\n== receipt ==")
     for k, v in results.items():

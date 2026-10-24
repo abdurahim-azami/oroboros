@@ -63,8 +63,8 @@
   function setMomentum(m) {
     D.momentum = m; mByCap = E.mapMomentum(m);
     m.areas.forEach(function (a) { capName[a.id] = a.name; });
-    var src = m.sources.arxiv || {};
-    $('#stamp').textContent = (m.kind === 'replay' ? 'Replay · signals as of ' + fmtDate(m.as_of) : 'Live · fetched ' + fmtDate(src.fetched_at) + ' ' + (src.fetched_at || '').slice(11, 16) + ' UTC');
+    var at = m.fetched_at || (m.sources.arxiv || {}).fetched_at || '';
+    $('#stamp').textContent = (m.kind === 'replay' ? 'Replay · signals as of ' + fmtDate(m.as_of) : 'Live · fetched ' + fmtDate(at) + ' ' + at.slice(11, 16) + ' UTC');
   }
 
   /* ---------------- shared helpers ---------------- */
@@ -247,7 +247,7 @@
       var word = a.no_feed ? 'fixed' : { up: 'rising', down: 'cooling', flat: 'steady' }[dir];
       var pos = ((a.m - 0.8) / 0.4 * 100).toFixed(1);
       var f = a.feeds, chips = [];
-      if (f.arxiv) chips.push('<span class="src"><b>arXiv</b> · fetched ' + fmtDate(src.arxiv.fetched_at) + ' · ' + fmtInt(f.arxiv.last90) + ' papers in 90 days</span>');
+      if (f.arxiv) chips.push('<span class="src"><b>arXiv</b> · fetched ' + fmtDate(f.arxiv.fetched_at || src.arxiv.fetched_at) + ((src.arxiv.older_areas || []).indexOf(a.id) >= 0 ? ' (last good snapshot)' : '') + ' · ' + fmtInt(f.arxiv.last90) + ' papers in 90 days</span>');
       if (f.github) chips.push('<span class="src"><b>GitHub</b> · ' + f.github.repos.length + ' reference repos · ' + fmtInt(f.github.series.slice(-3).reduce(function (x, y) { return x + y; }, 0)) + ' commits in 90 days</span>');
       if (f.hn) chips.push('<span class="src"><b>HN hiring</b> · ' + fmtInt(f.hn.last90_mentions) + ' keyword mentions in 90 days</span>');
       if (f.jobs) chips.push('<span class="src"><b>Job boards</b> · ratio ' + f2(f.jobs.ratio) + '</span>');

@@ -10,7 +10,7 @@ Every number the app shows traces to one of these. Fetch dates below are from th
 | E1 | [GPTs are GPTs](https://github.com/openai/GPTs-are-GPTs) (Eloundou et al., 2023) | Task-level GPT-4 and human exposure labels (`full_labelset.tsv`) | MIT | main branch, 24 Oct 2026 | `load_db.py` |
 | E2 | [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex) | `labor_market_impacts/task_penetration.csv`, `job_exposure.csv` | MIT | 24 Oct 2026 | `load_db.py` |
 | E3 | [AIOE](https://github.com/AIOE-Data/AIOE) (Felten, Raj and Seamans, 2021) | Appendix A occupation scores, shown as percentile | No licence file in the repo; cited for research use, to verify with the authors | main branch | `load_db.py` |
-| S1 | [arXiv API](https://info.arxiv.org/help/api/) | Paper counts per capability query, 21 windows of 30 days | arXiv API terms (metadata) | nightly | `ingest/arxiv.py` |
+| S1 | [arXiv API](https://info.arxiv.org/help/api/) | Paper counts per capability query: 13 windows of 30 days nightly, 21 on a full rebuild (for replay) | arXiv API terms (metadata) | nightly | `ingest/arxiv.py` |
 | S2 | [HN Algolia API](https://hn.algolia.com/api) | "Ask HN: Who is hiring?" threads, keyword mention share | Public API | nightly | `ingest/hn.py` |
 | S3 | [GitHub REST API](https://docs.github.com/en/rest/metrics/statistics) | Weekly commit activity on 2 to 3 reference repos per area | GitHub API terms | nightly | `ingest/github.py` |
 | S4 | [Remotive](https://remotive.com/api/remote-jobs), [Arbeitnow](https://www.arbeitnow.com/api/job-board-api) | Postings mentioning each area | Public APIs, attribution | nightly (history building) | `ingest/jobs.py` |

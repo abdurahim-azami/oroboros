@@ -47,14 +47,19 @@ def get_with_retry(c: httpx.Client, url: str, params: dict | None = None, tries:
                    backoff: float = 3.0, ok=(200,)) -> httpx.Response:
     last = None
     for i in range(tries):
+        wait = backoff * (i + 1)
         try:
             r = c.get(url, params=params)
             if r.status_code in ok:
                 return r
             last = RuntimeError(f"HTTP {r.status_code} for {r.url}")
+            if r.status_code in (429, 503):  # rate limited: honour Retry-After, never less than 30 s
+                ra = r.headers.get("Retry-After", "")
+                wait = max(30 * (i + 1), int(ra) if ra.isdigit() else 0)
         except httpx.HTTPError as e:  # network hiccup: retry
             last = e
-        time.sleep(backoff * (i + 1))
+        if i < tries - 1:
+            time.sleep(wait)
     raise last  # type: ignore[misc]
 
 

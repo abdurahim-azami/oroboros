@@ -18,6 +18,8 @@ and what is left becomes a different job. Oroboros walks one person through that
 
 Built for the **Aiversecity Future-Ready Workforce** hackathon (Domain 1). Synthetic personas only.
 
+**Live demo: https://abdurahim-azami.github.io/oroboros/** (redeployed after every nightly signal refresh)
+
 ---
 
 ## Run it

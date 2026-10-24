@@ -43,4 +43,4 @@ scenarios, dataset ranges, "uncertain" label, no-regret view).
 **Responsible by design:** synthetic personas only, no protected attributes in any formula
 (tested), every number dated and sourced, limits stated up front, not a hiring tool.
 
-GitHub: `<repo URL>` · Live demo: `<pages URL>`
+GitHub: https://github.com/abdurahim-azami/oroboros · Live demo: https://abdurahim-azami.github.io/oroboros/
