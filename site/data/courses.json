@@ -16,7 +16,7 @@
    ],
    "modules": 5,
    "provider_last_modified": "2026-10-22",
-   "last_checked": "2026-10-27T22:41:12Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "doc",
@@ -48,7 +48,7 @@
    ],
    "modules": 4,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:12Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "writing",
@@ -76,7 +76,7 @@
    ],
    "modules": 1,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "agents",
@@ -102,7 +102,7 @@
    ],
    "modules": 7,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "agents",
@@ -130,7 +130,7 @@
    ],
    "modules": 5,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "agents",
@@ -157,7 +157,7 @@
    ],
    "modules": 5,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "agents",
@@ -184,7 +184,7 @@
    ],
    "modules": 4,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "agents",
@@ -210,7 +210,7 @@
    ],
    "modules": 5,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "agents",
@@ -237,7 +237,7 @@
    ],
    "modules": 7,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "data"
@@ -264,7 +264,7 @@
    ],
    "modules": 6,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "data",
@@ -291,7 +291,7 @@
    ],
    "modules": 4,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:31Z",
    "hrd_corp": null,
    "caps": [
     "code",
@@ -316,7 +316,7 @@
    ],
    "modules": 2,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:32Z",
    "hrd_corp": null,
    "caps": [
     "research"
@@ -340,7 +340,7 @@
    ],
    "modules": 4,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:32Z",
    "hrd_corp": null,
    "caps": [
     "research"
@@ -365,7 +365,7 @@
    ],
    "modules": 3,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:32Z",
    "hrd_corp": null,
    "caps": [
     "research"
@@ -391,7 +391,7 @@
    ],
    "modules": 2,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:32Z",
    "hrd_corp": null,
    "caps": [
     "research",
@@ -417,7 +417,7 @@
    ],
    "modules": 2,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:32Z",
    "hrd_corp": null,
    "caps": [
     "human",
@@ -443,7 +443,7 @@
    ],
    "modules": 7,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:32Z",
    "hrd_corp": null,
    "caps": [
     "human"
@@ -468,7 +468,7 @@
    ],
    "modules": 5,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:32Z",
    "hrd_corp": null,
    "caps": [
     "human"
@@ -494,7 +494,7 @@
    ],
    "modules": 4,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:33Z",
    "hrd_corp": null,
    "caps": [
     "human",
@@ -523,7 +523,7 @@
    ],
    "modules": 1,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:33Z",
    "hrd_corp": null,
    "caps": [
     "data",
@@ -546,7 +546,7 @@
    ],
    "modules": 4,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:13Z",
+   "last_checked": "2026-10-28T22:59:33Z",
    "hrd_corp": null,
    "caps": [
     "writing",
@@ -573,7 +573,7 @@
    ],
    "modules": 7,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:14Z",
+   "last_checked": "2026-10-28T22:59:33Z",
    "hrd_corp": null,
    "caps": [
     "code",
@@ -602,7 +602,7 @@
    ],
    "modules": 8,
    "provider_last_modified": "2026-10-21",
-   "last_checked": "2026-10-27T22:41:14Z",
+   "last_checked": "2026-10-28T22:59:33Z",
    "hrd_corp": null,
    "caps": [
     "data"
