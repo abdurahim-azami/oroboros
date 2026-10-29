@@ -1,0 +1,1506 @@
+{
+ "source": "hn",
+ "fetched_at": "2026-10-29T22:55:30Z",
+ "row_count": 210,
+ "label": "HN Algolia API (Who is hiring)",
+ "url": "https://hn.algolia.com/api",
+ "unit": "share of hiring-thread comments mentioning the area",
+ "data": {
+  "threads": [
+   {
+    "id": 42919502,
+    "title": "Ask HN: Who is hiring? (February 2025)",
+    "date": "2025-02-03",
+    "comments": 616
+   },
+   {
+    "id": 43243024,
+    "title": "Ask HN: Who is hiring? (March 2025)",
+    "date": "2025-03-03",
+    "comments": 516
+   },
+   {
+    "id": 43547611,
+    "title": "Ask HN: Who is hiring? (April 2025)",
+    "date": "2025-04-01",
+    "comments": 491
+   },
+   {
+    "id": 43858554,
+    "title": "Ask HN: Who is hiring? (May 2025)",
+    "date": "2025-05-01",
+    "comments": 433
+   },
+   {
+    "id": 44159528,
+    "title": "Ask HN: Who is hiring? (June 2025)",
+    "date": "2025-06-02",
+    "comments": 523
+   },
+   {
+    "id": 44434576,
+    "title": "Ask HN: Who is hiring? (July 2025)",
+    "date": "2025-07-01",
+    "comments": 453
+   },
+   {
+    "id": 44757794,
+    "title": "Ask HN: Who is hiring? (August 2025)",
+    "date": "2025-08-01",
+    "comments": 445
+   },
+   {
+    "id": 45093192,
+    "title": "Ask HN: Who is hiring? (September 2025)",
+    "date": "2025-09-01",
+    "comments": 443
+   },
+   {
+    "id": 45438503,
+    "title": "Ask HN: Who is hiring? (October 2025)",
+    "date": "2025-10-01",
+    "comments": 464
+   },
+   {
+    "id": 45800465,
+    "title": "Ask HN: Who is hiring? (November 2025)",
+    "date": "2025-11-03",
+    "comments": 579
+   },
+   {
+    "id": 46108941,
+    "title": "Ask HN: Who is hiring? (December 2025)",
+    "date": "2025-12-01",
+    "comments": 545
+   },
+   {
+    "id": 46466074,
+    "title": "Ask HN: Who is hiring? (January 2026)",
+    "date": "2026-01-02",
+    "comments": 402
+   },
+   {
+    "id": 46857488,
+    "title": "Ask HN: Who is hiring? (February 2026)",
+    "date": "2026-02-02",
+    "comments": 592
+   },
+   {
+    "id": 47219668,
+    "title": "Ask HN: Who is hiring? (March 2026)",
+    "date": "2026-03-02",
+    "comments": 462
+   },
+   {
+    "id": 47601859,
+    "title": "Ask HN: Who is hiring? (April 2026)",
+    "date": "2026-04-01",
+    "comments": 457
+   },
+   {
+    "id": 47975571,
+    "title": "Ask HN: Who is hiring? (May 2026)",
+    "date": "2026-05-01",
+    "comments": 542
+   },
+   {
+    "id": 48357725,
+    "title": "Ask HN: Who is hiring? (June 2026)",
+    "date": "2026-06-01",
+    "comments": 489
+   },
+   {
+    "id": 48747976,
+    "title": "Ask HN: Who is hiring? (July 2026)",
+    "date": "2026-07-01",
+    "comments": 417
+   },
+   {
+    "id": 49156683,
+    "title": "Ask HN: Who is hiring? (August 2026)",
+    "date": "2026-08-03",
+    "comments": 372
+   },
+   {
+    "id": 49522897,
+    "title": "Ask HN: Who is hiring? (September 2026)",
+    "date": "2026-09-01",
+    "comments": 389
+   },
+   {
+    "id": 49922569,
+    "title": "Ask HN: Who is hiring? (October 2026)",
+    "date": "2026-10-01",
+    "comments": 392
+   }
+  ],
+  "areas": {
+   "doc": {
+    "keywords": [
+     "OCR",
+     "document AI",
+     "document processing",
+     "intelligent document",
+     "invoice"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 1,
+      "comments": 616,
+      "value": 0.00162
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 3,
+      "comments": 516,
+      "value": 0.00581
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 0,
+      "comments": 491,
+      "value": 0.0
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 0,
+      "comments": 433,
+      "value": 0.0
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 1,
+      "comments": 523,
+      "value": 0.00191
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 1,
+      "comments": 453,
+      "value": 0.00221
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 0,
+      "comments": 445,
+      "value": 0.0
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 0,
+      "comments": 443,
+      "value": 0.0
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 4,
+      "comments": 464,
+      "value": 0.00862
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 2,
+      "comments": 579,
+      "value": 0.00345
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 5,
+      "comments": 545,
+      "value": 0.00917
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 5,
+      "comments": 402,
+      "value": 0.01244
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 6,
+      "comments": 592,
+      "value": 0.01014
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 4,
+      "comments": 462,
+      "value": 0.00866
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 0,
+      "comments": 457,
+      "value": 0.0
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 1,
+      "comments": 542,
+      "value": 0.00185
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 5,
+      "comments": 489,
+      "value": 0.01022
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 7,
+      "comments": 417,
+      "value": 0.01679
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 3,
+      "comments": 372,
+      "value": 0.00806
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 4,
+      "comments": 389,
+      "value": 0.01028
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 3,
+      "comments": 392,
+      "value": 0.00765
+     }
+    ]
+   },
+   "writing": {
+    "keywords": [
+     "LLM",
+     "GPT",
+     "copywriting",
+     "content generation",
+     "summariz"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 20,
+      "comments": 616,
+      "value": 0.03247
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 15,
+      "comments": 516,
+      "value": 0.02907
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 23,
+      "comments": 491,
+      "value": 0.04684
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 16,
+      "comments": 433,
+      "value": 0.03695
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 25,
+      "comments": 523,
+      "value": 0.0478
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 38,
+      "comments": 453,
+      "value": 0.08389
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 26,
+      "comments": 445,
+      "value": 0.05843
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 25,
+      "comments": 443,
+      "value": 0.05643
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 27,
+      "comments": 464,
+      "value": 0.05819
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 30,
+      "comments": 579,
+      "value": 0.05181
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 27,
+      "comments": 545,
+      "value": 0.04954
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 27,
+      "comments": 402,
+      "value": 0.06716
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 30,
+      "comments": 592,
+      "value": 0.05068
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 29,
+      "comments": 462,
+      "value": 0.06277
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 33,
+      "comments": 457,
+      "value": 0.07221
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 30,
+      "comments": 542,
+      "value": 0.05535
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 38,
+      "comments": 489,
+      "value": 0.07771
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 26,
+      "comments": 417,
+      "value": 0.06235
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 26,
+      "comments": 372,
+      "value": 0.06989
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 28,
+      "comments": 389,
+      "value": 0.07198
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 23,
+      "comments": 392,
+      "value": 0.05867
+     }
+    ]
+   },
+   "code": {
+    "keywords": [
+     "Copilot",
+     "Cursor",
+     "AI coding",
+     "code generation",
+     "coding agent"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 5,
+      "comments": 616,
+      "value": 0.00812
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 3,
+      "comments": 516,
+      "value": 0.00581
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 8,
+      "comments": 491,
+      "value": 0.01629
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 11,
+      "comments": 433,
+      "value": 0.0254
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 11,
+      "comments": 523,
+      "value": 0.02103
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 19,
+      "comments": 453,
+      "value": 0.04194
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 13,
+      "comments": 445,
+      "value": 0.02921
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 14,
+      "comments": 443,
+      "value": 0.0316
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 13,
+      "comments": 464,
+      "value": 0.02802
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 18,
+      "comments": 579,
+      "value": 0.03109
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 12,
+      "comments": 545,
+      "value": 0.02202
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 8,
+      "comments": 402,
+      "value": 0.0199
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 30,
+      "comments": 592,
+      "value": 0.05068
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 21,
+      "comments": 462,
+      "value": 0.04545
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 19,
+      "comments": 457,
+      "value": 0.04158
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 15,
+      "comments": 542,
+      "value": 0.02768
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 18,
+      "comments": 489,
+      "value": 0.03681
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 23,
+      "comments": 417,
+      "value": 0.05516
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 10,
+      "comments": 372,
+      "value": 0.02688
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 12,
+      "comments": 389,
+      "value": 0.03085
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 18,
+      "comments": 392,
+      "value": 0.04592
+     }
+    ]
+   },
+   "agents": {
+    "keywords": [
+     "agentic",
+     "AI agent",
+     "LangChain",
+     "workflow automation",
+     "RPA"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 6,
+      "comments": 616,
+      "value": 0.00974
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 14,
+      "comments": 516,
+      "value": 0.02713
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 16,
+      "comments": 491,
+      "value": 0.03259
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 12,
+      "comments": 433,
+      "value": 0.02771
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 18,
+      "comments": 523,
+      "value": 0.03442
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 25,
+      "comments": 453,
+      "value": 0.05519
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 36,
+      "comments": 445,
+      "value": 0.0809
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 21,
+      "comments": 443,
+      "value": 0.0474
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 29,
+      "comments": 464,
+      "value": 0.0625
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 46,
+      "comments": 579,
+      "value": 0.07945
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 30,
+      "comments": 545,
+      "value": 0.05505
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 34,
+      "comments": 402,
+      "value": 0.08458
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 44,
+      "comments": 592,
+      "value": 0.07432
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 42,
+      "comments": 462,
+      "value": 0.09091
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 45,
+      "comments": 457,
+      "value": 0.09847
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 36,
+      "comments": 542,
+      "value": 0.06642
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 49,
+      "comments": 489,
+      "value": 0.1002
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 34,
+      "comments": 417,
+      "value": 0.08153
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 33,
+      "comments": 372,
+      "value": 0.08871
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 37,
+      "comments": 389,
+      "value": 0.09512
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 33,
+      "comments": 392,
+      "value": 0.08418
+     }
+    ]
+   },
+   "speech": {
+    "keywords": [
+     "speech",
+     "voice AI",
+     "ASR",
+     "text-to-speech",
+     "call center"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 9,
+      "comments": 616,
+      "value": 0.01461
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 3,
+      "comments": 516,
+      "value": 0.00581
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 6,
+      "comments": 491,
+      "value": 0.01222
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 4,
+      "comments": 433,
+      "value": 0.00924
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 9,
+      "comments": 523,
+      "value": 0.01721
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 1,
+      "comments": 453,
+      "value": 0.00221
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 6,
+      "comments": 445,
+      "value": 0.01348
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 4,
+      "comments": 443,
+      "value": 0.00903
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 10,
+      "comments": 464,
+      "value": 0.02155
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 9,
+      "comments": 579,
+      "value": 0.01554
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 4,
+      "comments": 545,
+      "value": 0.00734
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 5,
+      "comments": 402,
+      "value": 0.01244
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 7,
+      "comments": 592,
+      "value": 0.01182
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 3,
+      "comments": 462,
+      "value": 0.00649
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 2,
+      "comments": 457,
+      "value": 0.00438
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 0,
+      "comments": 542,
+      "value": 0.0
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 4,
+      "comments": 489,
+      "value": 0.00818
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 4,
+      "comments": 417,
+      "value": 0.00959
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 6,
+      "comments": 372,
+      "value": 0.01613
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 10,
+      "comments": 389,
+      "value": 0.02571
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 5,
+      "comments": 392,
+      "value": 0.01276
+     }
+    ]
+   },
+   "vision": {
+    "keywords": [
+     "computer vision",
+     "image recognition",
+     "vision model",
+     "object detection"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 4,
+      "comments": 616,
+      "value": 0.00649
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 7,
+      "comments": 516,
+      "value": 0.01357
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 4,
+      "comments": 491,
+      "value": 0.00815
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 6,
+      "comments": 433,
+      "value": 0.01386
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 8,
+      "comments": 523,
+      "value": 0.0153
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 11,
+      "comments": 453,
+      "value": 0.02428
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 6,
+      "comments": 445,
+      "value": 0.01348
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 7,
+      "comments": 443,
+      "value": 0.0158
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 7,
+      "comments": 464,
+      "value": 0.01509
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 10,
+      "comments": 579,
+      "value": 0.01727
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 9,
+      "comments": 545,
+      "value": 0.01651
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 7,
+      "comments": 402,
+      "value": 0.01741
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 9,
+      "comments": 592,
+      "value": 0.0152
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 8,
+      "comments": 462,
+      "value": 0.01732
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 5,
+      "comments": 457,
+      "value": 0.01094
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 8,
+      "comments": 542,
+      "value": 0.01476
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 10,
+      "comments": 489,
+      "value": 0.02045
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 7,
+      "comments": 417,
+      "value": 0.01679
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 3,
+      "comments": 372,
+      "value": 0.00806
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 6,
+      "comments": 389,
+      "value": 0.01542
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 8,
+      "comments": 392,
+      "value": 0.02041
+     }
+    ]
+   },
+   "translation": {
+    "keywords": [
+     "translation",
+     "localization",
+     "multilingual"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 1,
+      "comments": 616,
+      "value": 0.00162
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 0,
+      "comments": 516,
+      "value": 0.0
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 0,
+      "comments": 491,
+      "value": 0.0
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 1,
+      "comments": 433,
+      "value": 0.00231
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 0,
+      "comments": 523,
+      "value": 0.0
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 1,
+      "comments": 453,
+      "value": 0.00221
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 4,
+      "comments": 445,
+      "value": 0.00899
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 0,
+      "comments": 443,
+      "value": 0.0
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 1,
+      "comments": 464,
+      "value": 0.00216
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 3,
+      "comments": 579,
+      "value": 0.00518
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 0,
+      "comments": 545,
+      "value": 0.0
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 0,
+      "comments": 402,
+      "value": 0.0
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 1,
+      "comments": 592,
+      "value": 0.00169
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 1,
+      "comments": 462,
+      "value": 0.00216
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 3,
+      "comments": 457,
+      "value": 0.00656
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 1,
+      "comments": 542,
+      "value": 0.00185
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 0,
+      "comments": 489,
+      "value": 0.0
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 0,
+      "comments": 417,
+      "value": 0.0
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 0,
+      "comments": 372,
+      "value": 0.0
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 1,
+      "comments": 389,
+      "value": 0.00257
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 0,
+      "comments": 392,
+      "value": 0.0
+     }
+    ]
+   },
+   "data": {
+    "keywords": [
+     "data analysis",
+     "forecasting",
+     "analytics",
+     "fraud detection",
+     "pandas"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 24,
+      "comments": 616,
+      "value": 0.03896
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 33,
+      "comments": 516,
+      "value": 0.06395
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 17,
+      "comments": 491,
+      "value": 0.03462
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 18,
+      "comments": 433,
+      "value": 0.04157
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 21,
+      "comments": 523,
+      "value": 0.04015
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 22,
+      "comments": 453,
+      "value": 0.04857
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 23,
+      "comments": 445,
+      "value": 0.05169
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 23,
+      "comments": 443,
+      "value": 0.05192
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 30,
+      "comments": 464,
+      "value": 0.06466
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 20,
+      "comments": 579,
+      "value": 0.03454
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 24,
+      "comments": 545,
+      "value": 0.04404
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 22,
+      "comments": 402,
+      "value": 0.05473
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 30,
+      "comments": 592,
+      "value": 0.05068
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 21,
+      "comments": 462,
+      "value": 0.04545
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 28,
+      "comments": 457,
+      "value": 0.06127
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 30,
+      "comments": 542,
+      "value": 0.05535
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 27,
+      "comments": 489,
+      "value": 0.05521
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 14,
+      "comments": 417,
+      "value": 0.03357
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 15,
+      "comments": 372,
+      "value": 0.04032
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 20,
+      "comments": 389,
+      "value": 0.05141
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 21,
+      "comments": 392,
+      "value": 0.05357
+     }
+    ]
+   },
+   "research": {
+    "keywords": [
+     "RAG",
+     "retrieval",
+     "semantic search",
+     "reasoning model",
+     "vector database"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 3,
+      "comments": 616,
+      "value": 0.00487
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 7,
+      "comments": 516,
+      "value": 0.01357
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 5,
+      "comments": 491,
+      "value": 0.01018
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 9,
+      "comments": 433,
+      "value": 0.02079
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 9,
+      "comments": 523,
+      "value": 0.01721
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 14,
+      "comments": 453,
+      "value": 0.03091
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 15,
+      "comments": 445,
+      "value": 0.03371
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 10,
+      "comments": 443,
+      "value": 0.02257
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 8,
+      "comments": 464,
+      "value": 0.01724
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 8,
+      "comments": 579,
+      "value": 0.01382
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 12,
+      "comments": 545,
+      "value": 0.02202
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 13,
+      "comments": 402,
+      "value": 0.03234
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 16,
+      "comments": 592,
+      "value": 0.02703
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 18,
+      "comments": 462,
+      "value": 0.03896
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 15,
+      "comments": 457,
+      "value": 0.03282
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 12,
+      "comments": 542,
+      "value": 0.02214
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 16,
+      "comments": 489,
+      "value": 0.03272
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 17,
+      "comments": 417,
+      "value": 0.04077
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 6,
+      "comments": 372,
+      "value": 0.01613
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 11,
+      "comments": 389,
+      "value": 0.02828
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 15,
+      "comments": 392,
+      "value": 0.03827
+     }
+    ]
+   },
+   "robotics": {
+    "keywords": [
+     "robotics",
+     "robot",
+     "autonomous vehicle",
+     "humanoid"
+    ],
+    "series": [
+     {
+      "date": "2025-02-03",
+      "mentions": 9,
+      "comments": 616,
+      "value": 0.01461
+     },
+     {
+      "date": "2025-03-03",
+      "mentions": 6,
+      "comments": 516,
+      "value": 0.01163
+     },
+     {
+      "date": "2025-04-01",
+      "mentions": 9,
+      "comments": 491,
+      "value": 0.01833
+     },
+     {
+      "date": "2025-05-01",
+      "mentions": 7,
+      "comments": 433,
+      "value": 0.01617
+     },
+     {
+      "date": "2025-06-02",
+      "mentions": 9,
+      "comments": 523,
+      "value": 0.01721
+     },
+     {
+      "date": "2025-07-01",
+      "mentions": 8,
+      "comments": 453,
+      "value": 0.01766
+     },
+     {
+      "date": "2025-08-01",
+      "mentions": 7,
+      "comments": 445,
+      "value": 0.01573
+     },
+     {
+      "date": "2025-09-01",
+      "mentions": 7,
+      "comments": 443,
+      "value": 0.0158
+     },
+     {
+      "date": "2025-10-01",
+      "mentions": 7,
+      "comments": 464,
+      "value": 0.01509
+     },
+     {
+      "date": "2025-11-03",
+      "mentions": 12,
+      "comments": 579,
+      "value": 0.02073
+     },
+     {
+      "date": "2025-12-01",
+      "mentions": 12,
+      "comments": 545,
+      "value": 0.02202
+     },
+     {
+      "date": "2026-01-02",
+      "mentions": 14,
+      "comments": 402,
+      "value": 0.03483
+     },
+     {
+      "date": "2026-02-02",
+      "mentions": 15,
+      "comments": 592,
+      "value": 0.02534
+     },
+     {
+      "date": "2026-03-02",
+      "mentions": 7,
+      "comments": 462,
+      "value": 0.01515
+     },
+     {
+      "date": "2026-04-01",
+      "mentions": 21,
+      "comments": 457,
+      "value": 0.04595
+     },
+     {
+      "date": "2026-05-01",
+      "mentions": 13,
+      "comments": 542,
+      "value": 0.02399
+     },
+     {
+      "date": "2026-06-01",
+      "mentions": 15,
+      "comments": 489,
+      "value": 0.03067
+     },
+     {
+      "date": "2026-07-01",
+      "mentions": 16,
+      "comments": 417,
+      "value": 0.03837
+     },
+     {
+      "date": "2026-08-03",
+      "mentions": 13,
+      "comments": 372,
+      "value": 0.03495
+     },
+     {
+      "date": "2026-09-01",
+      "mentions": 14,
+      "comments": 389,
+      "value": 0.03599
+     },
+     {
+      "date": "2026-10-01",
+      "mentions": 17,
+      "comments": 392,
+      "value": 0.04337
+     }
+    ]
+   }
+  }
+ }
+}
