@@ -1,6 +1,6 @@
 {
  "source": "hn",
- "fetched_at": "2026-11-10T01:43:38Z",
+ "fetched_at": "2026-11-10T23:33:50Z",
  "row_count": 210,
  "label": "HN Algolia API (Who is hiring)",
  "url": "https://hn.algolia.com/api",
@@ -23,7 +23,7 @@
     "id": 43858554,
     "title": "Ask HN: Who is hiring? (May 2025)",
     "date": "2025-05-01",
-    "comments": 433
+    "comments": 432
    },
    {
     "id": 44159528,
@@ -107,7 +107,7 @@
     "id": 48747976,
     "title": "Ask HN: Who is hiring? (July 2026)",
     "date": "2026-07-01",
-    "comments": 416
+    "comments": 415
    },
    {
     "id": 49156683,
@@ -131,7 +131,7 @@
     "id": 50338728,
     "title": "Ask HN: Who is hiring? (November 2026)",
     "date": "2026-11-02",
-    "comments": 323
+    "comments": 326
    }
   ],
   "areas": {
@@ -159,7 +159,7 @@
      {
       "date": "2025-05-01",
       "mentions": 0,
-      "comments": 433,
+      "comments": 432,
       "value": 0.0
      },
      {
@@ -243,8 +243,8 @@
      {
       "date": "2026-07-01",
       "mentions": 7,
-      "comments": 416,
-      "value": 0.01683
+      "comments": 415,
+      "value": 0.01687
      },
      {
       "date": "2026-08-03",
@@ -267,7 +267,7 @@
      {
       "date": "2026-11-02",
       "mentions": 0,
-      "comments": 323,
+      "comments": 326,
       "value": 0.0
      }
     ]
@@ -296,8 +296,8 @@
      {
       "date": "2025-05-01",
       "mentions": 16,
-      "comments": 433,
-      "value": 0.03695
+      "comments": 432,
+      "value": 0.03704
      },
      {
       "date": "2025-06-02",
@@ -379,9 +379,9 @@
      },
      {
       "date": "2026-07-01",
-      "mentions": 25,
-      "comments": 416,
-      "value": 0.0601
+      "mentions": 24,
+      "comments": 415,
+      "value": 0.05783
      },
      {
       "date": "2026-08-03",
@@ -404,8 +404,8 @@
      {
       "date": "2026-11-02",
       "mentions": 18,
-      "comments": 323,
-      "value": 0.05573
+      "comments": 326,
+      "value": 0.05521
      }
     ]
    },
@@ -433,8 +433,8 @@
      {
       "date": "2025-05-01",
       "mentions": 11,
-      "comments": 433,
-      "value": 0.0254
+      "comments": 432,
+      "value": 0.02546
      },
      {
       "date": "2025-06-02",
@@ -517,8 +517,8 @@
      {
       "date": "2026-07-01",
       "mentions": 22,
-      "comments": 416,
-      "value": 0.05288
+      "comments": 415,
+      "value": 0.05301
      },
      {
       "date": "2026-08-03",
@@ -541,8 +541,8 @@
      {
       "date": "2026-11-02",
       "mentions": 12,
-      "comments": 323,
-      "value": 0.03715
+      "comments": 326,
+      "value": 0.03681
      }
     ]
    },
@@ -570,8 +570,8 @@
      {
       "date": "2025-05-01",
       "mentions": 12,
-      "comments": 433,
-      "value": 0.02771
+      "comments": 432,
+      "value": 0.02778
      },
      {
       "date": "2025-06-02",
@@ -653,9 +653,9 @@
      },
      {
       "date": "2026-07-01",
-      "mentions": 34,
-      "comments": 416,
-      "value": 0.08173
+      "mentions": 33,
+      "comments": 415,
+      "value": 0.07952
      },
      {
       "date": "2026-08-03",
@@ -678,8 +678,8 @@
      {
       "date": "2026-11-02",
       "mentions": 23,
-      "comments": 323,
-      "value": 0.07121
+      "comments": 326,
+      "value": 0.07055
      }
     ]
    },
@@ -707,8 +707,8 @@
      {
       "date": "2025-05-01",
       "mentions": 4,
-      "comments": 433,
-      "value": 0.00924
+      "comments": 432,
+      "value": 0.00926
      },
      {
       "date": "2025-06-02",
@@ -791,8 +791,8 @@
      {
       "date": "2026-07-01",
       "mentions": 4,
-      "comments": 416,
-      "value": 0.00962
+      "comments": 415,
+      "value": 0.00964
      },
      {
       "date": "2026-08-03",
@@ -815,8 +815,8 @@
      {
       "date": "2026-11-02",
       "mentions": 6,
-      "comments": 323,
-      "value": 0.01858
+      "comments": 326,
+      "value": 0.0184
      }
     ]
    },
@@ -843,8 +843,8 @@
      {
       "date": "2025-05-01",
       "mentions": 6,
-      "comments": 433,
-      "value": 0.01386
+      "comments": 432,
+      "value": 0.01389
      },
      {
       "date": "2025-06-02",
@@ -927,8 +927,8 @@
      {
       "date": "2026-07-01",
       "mentions": 7,
-      "comments": 416,
-      "value": 0.01683
+      "comments": 415,
+      "value": 0.01687
      },
      {
       "date": "2026-08-03",
@@ -951,8 +951,8 @@
      {
       "date": "2026-11-02",
       "mentions": 5,
-      "comments": 323,
-      "value": 0.01548
+      "comments": 326,
+      "value": 0.01534
      }
     ]
    },
@@ -978,7 +978,7 @@
      {
       "date": "2025-05-01",
       "mentions": 1,
-      "comments": 433,
+      "comments": 432,
       "value": 0.00231
      },
      {
@@ -1062,7 +1062,7 @@
      {
       "date": "2026-07-01",
       "mentions": 0,
-      "comments": 416,
+      "comments": 415,
       "value": 0.0
      },
      {
@@ -1086,8 +1086,8 @@
      {
       "date": "2026-11-02",
       "mentions": 1,
-      "comments": 323,
-      "value": 0.0031
+      "comments": 326,
+      "value": 0.00307
      }
     ]
    },
@@ -1115,8 +1115,8 @@
      {
       "date": "2025-05-01",
       "mentions": 18,
-      "comments": 433,
-      "value": 0.04157
+      "comments": 432,
+      "value": 0.04167
      },
      {
       "date": "2025-06-02",
@@ -1199,8 +1199,8 @@
      {
       "date": "2026-07-01",
       "mentions": 14,
-      "comments": 416,
-      "value": 0.03365
+      "comments": 415,
+      "value": 0.03373
      },
      {
       "date": "2026-08-03",
@@ -1223,8 +1223,8 @@
      {
       "date": "2026-11-02",
       "mentions": 16,
-      "comments": 323,
-      "value": 0.04954
+      "comments": 326,
+      "value": 0.04908
      }
     ]
    },
@@ -1252,8 +1252,8 @@
      {
       "date": "2025-05-01",
       "mentions": 9,
-      "comments": 433,
-      "value": 0.02079
+      "comments": 432,
+      "value": 0.02083
      },
      {
       "date": "2025-06-02",
@@ -1336,8 +1336,8 @@
      {
       "date": "2026-07-01",
       "mentions": 17,
-      "comments": 416,
-      "value": 0.04087
+      "comments": 415,
+      "value": 0.04096
      },
      {
       "date": "2026-08-03",
@@ -1360,8 +1360,8 @@
      {
       "date": "2026-11-02",
       "mentions": 4,
-      "comments": 323,
-      "value": 0.01238
+      "comments": 326,
+      "value": 0.01227
      }
     ]
    },
@@ -1388,8 +1388,8 @@
      {
       "date": "2025-05-01",
       "mentions": 7,
-      "comments": 433,
-      "value": 0.01617
+      "comments": 432,
+      "value": 0.0162
      },
      {
       "date": "2025-06-02",
@@ -1472,8 +1472,8 @@
      {
       "date": "2026-07-01",
       "mentions": 16,
-      "comments": 416,
-      "value": 0.03846
+      "comments": 415,
+      "value": 0.03855
      },
      {
       "date": "2026-08-03",
@@ -1496,8 +1496,8 @@
      {
       "date": "2026-11-02",
       "mentions": 14,
-      "comments": 323,
-      "value": 0.04334
+      "comments": 326,
+      "value": 0.04294
      }
     ]
    }
