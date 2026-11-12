@@ -1,6 +1,6 @@
 {
  "source": "hn",
- "fetched_at": "2026-11-12T00:59:33Z",
+ "fetched_at": "2026-11-12T23:50:46Z",
  "row_count": 210,
  "label": "HN Algolia API (Who is hiring)",
  "url": "https://hn.algolia.com/api",
@@ -89,7 +89,7 @@
     "id": 47601859,
     "title": "Ask HN: Who is hiring? (April 2026)",
     "date": "2026-04-01",
-    "comments": 456
+    "comments": 455
    },
    {
     "id": 47975571,
@@ -131,7 +131,7 @@
     "id": 50338728,
     "title": "Ask HN: Who is hiring? (November 2026)",
     "date": "2026-11-02",
-    "comments": 341
+    "comments": 346
    }
   ],
   "areas": {
@@ -225,7 +225,7 @@
      {
       "date": "2026-04-01",
       "mentions": 0,
-      "comments": 456,
+      "comments": 455,
       "value": 0.0
      },
      {
@@ -267,7 +267,7 @@
      {
       "date": "2026-11-02",
       "mentions": 0,
-      "comments": 341,
+      "comments": 346,
       "value": 0.0
      }
     ]
@@ -362,8 +362,8 @@
      {
       "date": "2026-04-01",
       "mentions": 33,
-      "comments": 456,
-      "value": 0.07237
+      "comments": 455,
+      "value": 0.07253
      },
      {
       "date": "2026-05-01",
@@ -403,9 +403,9 @@
      },
      {
       "date": "2026-11-02",
-      "mentions": 19,
-      "comments": 341,
-      "value": 0.05572
+      "mentions": 20,
+      "comments": 346,
+      "value": 0.0578
      }
     ]
    },
@@ -499,8 +499,8 @@
      {
       "date": "2026-04-01",
       "mentions": 19,
-      "comments": 456,
-      "value": 0.04167
+      "comments": 455,
+      "value": 0.04176
      },
      {
       "date": "2026-05-01",
@@ -541,8 +541,8 @@
      {
       "date": "2026-11-02",
       "mentions": 12,
-      "comments": 341,
-      "value": 0.03519
+      "comments": 346,
+      "value": 0.03468
      }
     ]
    },
@@ -636,8 +636,8 @@
      {
       "date": "2026-04-01",
       "mentions": 45,
-      "comments": 456,
-      "value": 0.09868
+      "comments": 455,
+      "value": 0.0989
      },
      {
       "date": "2026-05-01",
@@ -677,9 +677,9 @@
      },
      {
       "date": "2026-11-02",
-      "mentions": 26,
-      "comments": 341,
-      "value": 0.07625
+      "mentions": 27,
+      "comments": 346,
+      "value": 0.07803
      }
     ]
    },
@@ -773,8 +773,8 @@
      {
       "date": "2026-04-01",
       "mentions": 2,
-      "comments": 456,
-      "value": 0.00439
+      "comments": 455,
+      "value": 0.0044
      },
      {
       "date": "2026-05-01",
@@ -815,8 +815,8 @@
      {
       "date": "2026-11-02",
       "mentions": 6,
-      "comments": 341,
-      "value": 0.0176
+      "comments": 346,
+      "value": 0.01734
      }
     ]
    },
@@ -909,8 +909,8 @@
      {
       "date": "2026-04-01",
       "mentions": 5,
-      "comments": 456,
-      "value": 0.01096
+      "comments": 455,
+      "value": 0.01099
      },
      {
       "date": "2026-05-01",
@@ -951,8 +951,8 @@
      {
       "date": "2026-11-02",
       "mentions": 5,
-      "comments": 341,
-      "value": 0.01466
+      "comments": 346,
+      "value": 0.01445
      }
     ]
    },
@@ -1044,8 +1044,8 @@
      {
       "date": "2026-04-01",
       "mentions": 3,
-      "comments": 456,
-      "value": 0.00658
+      "comments": 455,
+      "value": 0.00659
      },
      {
       "date": "2026-05-01",
@@ -1086,8 +1086,8 @@
      {
       "date": "2026-11-02",
       "mentions": 1,
-      "comments": 341,
-      "value": 0.00293
+      "comments": 346,
+      "value": 0.00289
      }
     ]
    },
@@ -1181,8 +1181,8 @@
      {
       "date": "2026-04-01",
       "mentions": 28,
-      "comments": 456,
-      "value": 0.0614
+      "comments": 455,
+      "value": 0.06154
      },
      {
       "date": "2026-05-01",
@@ -1222,9 +1222,9 @@
      },
      {
       "date": "2026-11-02",
-      "mentions": 18,
-      "comments": 341,
-      "value": 0.05279
+      "mentions": 17,
+      "comments": 346,
+      "value": 0.04913
      }
     ]
    },
@@ -1318,8 +1318,8 @@
      {
       "date": "2026-04-01",
       "mentions": 15,
-      "comments": 456,
-      "value": 0.03289
+      "comments": 455,
+      "value": 0.03297
      },
      {
       "date": "2026-05-01",
@@ -1359,9 +1359,9 @@
      },
      {
       "date": "2026-11-02",
-      "mentions": 4,
-      "comments": 341,
-      "value": 0.01173
+      "mentions": 5,
+      "comments": 346,
+      "value": 0.01445
      }
     ]
    },
@@ -1454,8 +1454,8 @@
      {
       "date": "2026-04-01",
       "mentions": 21,
-      "comments": 456,
-      "value": 0.04605
+      "comments": 455,
+      "value": 0.04615
      },
      {
       "date": "2026-05-01",
@@ -1496,8 +1496,8 @@
      {
       "date": "2026-11-02",
       "mentions": 14,
-      "comments": 341,
-      "value": 0.04106
+      "comments": 346,
+      "value": 0.04046
      }
     ]
    }
