@@ -1,42 +1,42 @@
 {
- "as_of": "2026-11-12",
- "snapshot_day": "2026-11-12",
+ "as_of": "2026-11-13",
+ "snapshot_day": "2026-11-13",
  "kind": "live",
  "formula": "m_c = clamp( geomean_f( sum(last 90 days) / (past-year total / 4) ), 0.8, 1.2 )",
  "cap": [
   0.8,
   1.2
  ],
- "computed_at": "2026-11-12T23:58:41Z",
- "fetched_at": "2026-11-12T23:58:38Z",
+ "computed_at": "2026-11-13T23:56:39Z",
+ "fetched_at": "2026-11-13T23:56:35Z",
  "jobs_note": "Jobs feed is building history (needs 90+ days of nightly snapshots); not yet in m_c.",
  "sources": {
   "arxiv": {
    "label": "arXiv API",
    "url": "https://export.arxiv.org/api/query",
-   "fetched_at": "2026-11-12T23:40:39Z",
+   "fetched_at": "2026-11-13T23:36:55Z",
    "row_count": 130,
    "unit": "papers submitted per 30-day window"
   },
   "hn": {
    "label": "HN Algolia API (Who is hiring)",
    "url": "https://hn.algolia.com/api",
-   "fetched_at": "2026-11-12T23:50:46Z",
+   "fetched_at": "2026-11-13T23:49:07Z",
    "row_count": 210,
    "unit": "share of hiring-thread comments mentioning the area"
   },
   "github": {
    "label": "GitHub REST API",
    "url": "https://docs.github.com/en/rest/metrics/statistics",
-   "fetched_at": "2026-11-12T23:54:35Z",
-   "row_count": 1092,
+   "fetched_at": "2026-11-13T23:53:04Z",
+   "row_count": 1144,
    "unit": "commits per week on reference repositories"
   },
   "jobs": {
    "label": "Remotive + Arbeitnow job APIs",
    "url": "https://remotive.com/api/remote-jobs ; https://www.arbeitnow.com/api/job-board-api",
-   "fetched_at": "2026-11-12T23:58:38Z",
-   "row_count": 1514,
+   "fetched_at": "2026-11-13T23:56:35Z",
+   "row_count": 1516,
    "unit": "postings mentioning the area, per daily snapshot"
   }
  },
@@ -45,29 +45,29 @@
    "id": "doc",
    "name": "Document processing",
    "blurb": "Reading forms, scans, invoices and claims files, and pulling out the fields.",
-   "raw_ratio": 1.0068,
-   "m": 1.0068,
+   "raw_ratio": 1.0079,
+   "m": 1.0079,
    "capped": false,
    "feeds": {
     "arxiv": {
-     "ratio": 0.9018,
-     "last90": 163,
-     "year": 723,
+     "ratio": 0.895,
+     "last90": 162,
+     "year": 724,
      "series": [
-      61,
-      54,
+      67,
+      47,
       57,
-      73,
-      79,
+      76,
+      78,
       65,
-      53,
+      51,
+      60,
+      61,
+      59,
       55,
-      63,
-      62,
-      53,
       48
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
      "ratio": 0.7585,
@@ -88,20 +88,20 @@
      "last90_mentions": 7
     },
     "github": {
-     "ratio": 1.4921,
+     "ratio": 1.5081,
      "series": [
       138,
       143,
-      154,
-      213,
+      162,
+      205,
       283,
       202,
       374,
       388,
       258,
-      408,
-      456,
-      417
+      525,
+      339,
+      439
      ],
      "repos": [
       "docling-project/docling",
@@ -115,32 +115,32 @@
    "id": "writing",
    "name": "Writing and summarising",
    "blurb": "Drafting letters, reports and replies, and summarising long text.",
-   "raw_ratio": 1.0675,
-   "m": 1.0675,
+   "raw_ratio": 1.07,
+   "m": 1.07,
    "capped": false,
    "feeds": {
     "arxiv": {
-     "ratio": 1.0825,
-     "last90": 1020,
-     "year": 3769,
+     "ratio": 1.0885,
+     "last90": 1027,
+     "year": 3774,
      "series": [
-      233,
-      267,
-      334,
-      263,
-      290,
+      235,
+      264,
+      328,
+      275,
+      285,
+      349,
+      412,
+      299,
+      300,
+      321,
       358,
-      399,
-      309,
-      296,
-      322,
-      351,
-      347
+      348
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
-     "ratio": 0.9867,
+     "ratio": 0.9882,
      "series": [
       0.04954,
       0.06716,
@@ -153,24 +153,24 @@
       0.07046,
       0.07216,
       0.05483,
-      0.0578
+      0.05817
      ],
-     "last90_mentions": 69
+     "last90_mentions": 70
     },
     "github": {
      "ratio": 1.1389,
      "series": [
       82,
       61,
-      111,
-      135,
+      134,
+      112,
       116,
       57,
       89,
       68,
       100,
-      103,
-      146,
+      136,
+      113,
       77
      ],
      "repos": [
@@ -185,32 +185,32 @@
    "id": "code",
    "name": "Code generation",
    "blurb": "Writing, fixing and explaining software.",
-   "raw_ratio": 1.0708,
-   "m": 1.0708,
+   "raw_ratio": 1.076,
+   "m": 1.076,
    "capped": false,
    "feeds": {
     "arxiv": {
-     "ratio": 1.011,
-     "last90": 504,
-     "year": 1994,
+     "ratio": 1.008,
+     "last90": 502,
+     "year": 1992,
      "series": [
-      125,
-      114,
+      127,
+      115,
+      170,
+      161,
       172,
-      156,
-      169,
-      242,
-      199,
-      148,
-      165,
-      134,
-      199,
-      171
+      236,
+      201,
+      146,
+      162,
+      133,
+      209,
+      160
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
-     "ratio": 1.0124,
+     "ratio": 1.0215,
      "series": [
       0.02202,
       0.0199,
@@ -223,25 +223,25 @@
       0.0271,
       0.03093,
       0.04439,
-      0.03468
+      0.03601
      ],
-     "last90_mentions": 41
+     "last90_mentions": 42
     },
     "github": {
-     "ratio": 1.1995,
+     "ratio": 1.2099,
      "series": [
       138,
       179,
-      136,
-      289,
+      171,
+      254,
       201,
       522,
       546,
       236,
       195,
-      149,
-      450,
-      447
+      248,
+      351,
+      460
      ],
      "repos": [
       "OpenHands/OpenHands"
@@ -254,32 +254,32 @@
    "id": "agents",
    "name": "Agents and tool use",
    "blurb": "Software that plans steps, calls tools and runs workflows on its own.",
-   "raw_ratio": 1.2188,
+   "raw_ratio": 1.2099,
    "m": 1.2,
    "capped": true,
    "feeds": {
     "arxiv": {
-     "ratio": 1.3503,
-     "last90": 10681,
-     "year": 31641,
+     "ratio": 1.3601,
+     "last90": 10808,
+     "year": 31787,
      "series": [
-      1509,
-      1430,
-      2170,
-      2116,
-      2466,
-      2796,
-      3083,
-      2626,
-      2764,
-      2736,
-      4172,
-      3773
+      1497,
+      1422,
+      2178,
+      2171,
+      2451,
+      2758,
+      3152,
+      2600,
+      2750,
+      2715,
+      4303,
+      3790
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
-     "ratio": 1.0418,
+     "ratio": 1.0486,
      "series": [
       0.05505,
       0.08458,
@@ -292,27 +292,28 @@
       0.08672,
       0.09536,
       0.08616,
-      0.07803
+      0.08033
      ],
-     "last90_mentions": 97
+     "last90_mentions": 99
     },
     "github": {
-     "ratio": 1.287,
+     "ratio": 1.2419,
      "series": [
-      61,
-      34,
-      72,
       100,
-      213,
-      113,
-      150,
-      102,
-      91,
-      109,
-      127,
-      208
+      58,
+      152,
+      188,
+      351,
+      206,
+      261,
+      141,
+      131,
+      188,
+      193,
+      334
      ],
      "repos": [
+      "langchain-ai/langgraph",
       "microsoft/autogen",
       "crewAIInc/crewAI"
      ]
@@ -324,32 +325,32 @@
    "id": "speech",
    "name": "Speech and conversation",
    "blurb": "Transcribing calls, talking to customers, voice assistants.",
-   "raw_ratio": 1.2644,
+   "raw_ratio": 1.2775,
    "m": 1.2,
    "capped": true,
    "feeds": {
     "arxiv": {
-     "ratio": 1.2815,
-     "last90": 478,
-     "year": 1492,
+     "ratio": 1.2995,
+     "last90": 487,
+     "year": 1499,
      "series": [
-      69,
-      78,
-      120,
-      129,
-      116,
+      66,
+      80,
+      119,
+      136,
+      110,
       98,
-      155,
-      154,
-      95,
-      127,
-      226,
-      125
+      161,
+      145,
+      97,
+      129,
+      230,
+      128
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
-     "ratio": 1.6458,
+     "ratio": 1.6327,
      "series": [
       0.00734,
       0.01244,
@@ -362,25 +363,25 @@
       0.01626,
       0.02577,
       0.01044,
-      0.01734
+      0.01662
      ],
      "last90_mentions": 20
     },
     "github": {
-     "ratio": 0.9585,
+     "ratio": 0.9827,
      "series": [
       55,
       71,
-      63,
-      125,
+      66,
+      122,
       85,
       39,
       28,
       32,
       70,
-      42,
-      38,
-      99
+      48,
+      32,
+      105
      ],
      "repos": [
       "openai/whisper",
@@ -395,32 +396,32 @@
    "id": "vision",
    "name": "Vision",
    "blurb": "Looking at photos and video: damage, defects, identity, scenes.",
-   "raw_ratio": 1.1205,
-   "m": 1.1205,
-   "capped": false,
+   "raw_ratio": 1.2562,
+   "m": 1.2,
+   "capped": true,
    "feeds": {
     "arxiv": {
-     "ratio": 1.1648,
-     "last90": 3288,
-     "year": 11291,
+     "ratio": 1.1771,
+     "last90": 3331,
+     "year": 11319,
      "series": [
-      827,
-      572,
       818,
-      959,
-      995,
-      917,
-      1069,
-      961,
-      885,
-      865,
-      1389,
-      1034
+      564,
+      808,
+      993,
+      984,
+      903,
+      1093,
+      949,
+      876,
+      864,
+      1434,
+      1033
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
-     "ratio": 1.0779,
+     "ratio": 1.0686,
      "series": [
       0.01651,
       0.01741,
@@ -433,9 +434,30 @@
       0.00813,
       0.01546,
       0.02089,
-      0.01445
+      0.01385
      ],
      "last90_mentions": 19
+    },
+    "github": {
+     "ratio": 1.5761,
+     "series": [
+      91,
+      117,
+      112,
+      113,
+      140,
+      108,
+      174,
+      330,
+      339,
+      298,
+      361,
+      332
+     ],
+     "repos": [
+      "ultralytics/ultralytics",
+      "facebookresearch/sam2"
+     ]
     }
    },
    "no_feed": false
@@ -444,32 +466,32 @@
    "id": "translation",
    "name": "Translation",
    "blurb": "Moving text and speech between languages.",
-   "raw_ratio": 0.7962,
+   "raw_ratio": 0.7942,
    "m": 0.8,
    "capped": true,
    "feeds": {
     "arxiv": {
-     "ratio": 1.12,
-     "last90": 126,
+     "ratio": 1.1289,
+     "last90": 127,
      "year": 450,
      "series": [
       22,
-      27,
-      53,
-      47,
-      37,
-      42,
+      29,
+      52,
+      49,
+      34,
+      43,
       38,
-      23,
+      21,
       35,
-      42,
+      43,
       44,
       40
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
-     "ratio": 1.2313,
+     "ratio": 1.2125,
      "series": [
       0.0,
       0.0,
@@ -482,7 +504,7 @@
       0.0,
       0.00258,
       0.0,
-      0.00289
+      0.00277
      ],
      "last90_mentions": 2
     },
@@ -491,8 +513,8 @@
      "series": [
       29,
       6,
-      47,
-      28,
+      56,
+      19,
       2,
       2,
       11,
@@ -514,32 +536,32 @@
    "id": "data",
    "name": "Data analysis and forecasting",
    "blurb": "Spreadsheets, anomaly and fraud checks, forecasts, dashboards.",
-   "raw_ratio": 1.0859,
-   "m": 1.0859,
-   "capped": false,
+   "raw_ratio": 0.7182,
+   "m": 0.8,
+   "capped": true,
    "feeds": {
     "arxiv": {
-     "ratio": 0.9747,
-     "last90": 654,
-     "year": 2684,
+     "ratio": 0.9843,
+     "last90": 660,
+     "year": 2682,
      "series": [
-      212,
-      154,
-      272,
-      216,
-      249,
-      254,
-      263,
       208,
-      202,
-      195,
-      257,
-      202
+      152,
+      267,
+      219,
+      252,
+      247,
+      273,
+      200,
+      204,
+      192,
+      262,
+      206
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
-     "ratio": 1.0418,
+     "ratio": 1.0725,
      "series": [
       0.04404,
       0.05473,
@@ -552,30 +574,29 @@
       0.04065,
       0.05155,
       0.05483,
-      0.04913
+      0.0554
      ],
-     "last90_mentions": 58
+     "last90_mentions": 61
     },
     "github": {
-     "ratio": 1.2609,
+     "ratio": 0.3509,
      "series": [
-      37,
+      32,
+      2,
+      3,
+      1,
+      1,
+      1,
+      9,
+      1,
+      2,
       4,
-      7,
-      16,
-      11,
-      5,
-      16,
-      20,
-      10,
-      17,
-      25,
-      16
+      1,
+      0
      ],
      "repos": [
       "sinaptik-ai/pandas-ai",
-      "amazon-science/chronos-forecasting",
-      "Nixtla/statsforecast"
+      "amazon-science/chronos-forecasting"
      ]
     }
    },
@@ -585,32 +606,32 @@
    "id": "research",
    "name": "Research and reasoning",
    "blurb": "Looking things up, checking rules, weighing evidence, making a call.",
-   "raw_ratio": 0.9834,
-   "m": 0.9834,
+   "raw_ratio": 0.9867,
+   "m": 0.9867,
    "capped": false,
    "feeds": {
     "arxiv": {
-     "ratio": 0.9173,
-     "last90": 3439,
-     "year": 14996,
+     "ratio": 0.9241,
+     "last90": 3462,
+     "year": 14985,
      "series": [
-      1083,
-      1061,
-      1480,
-      1227,
-      1440,
-      1500,
-      1509,
-      1130,
-      1127,
-      1060,
-      1321,
+      1072,
+      1050,
+      1466,
+      1273,
+      1424,
+      1468,
+      1534,
+      1120,
+      1116,
+      1057,
+      1347,
       1058
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
-     "ratio": 0.9202,
+     "ratio": 0.9148,
      "series": [
       0.02202,
       0.03234,
@@ -623,25 +644,25 @@
       0.01626,
       0.02835,
       0.03655,
-      0.01445
+      0.01385
      ],
      "last90_mentions": 30
     },
     "github": {
-     "ratio": 1.1268,
+     "ratio": 1.1364,
      "series": [
       315,
       237,
-      381,
-      582,
+      494,
+      469,
       355,
       427,
       586,
       547,
       433,
-      453,
-      645,
-      417
+      534,
+      564,
+      435
      ],
      "repos": [
       "run-llama/llama_index",
@@ -656,32 +677,32 @@
    "id": "robotics",
    "name": "Robotics and physical work",
    "blurb": "Machines that move, lift, drive and repair in the real world.",
-   "raw_ratio": 1.4136,
+   "raw_ratio": 1.4299,
    "m": 1.2,
    "capped": true,
    "feeds": {
     "arxiv": {
-     "ratio": 1.4519,
-     "last90": 5680,
-     "year": 15648,
+     "ratio": 1.463,
+     "last90": 5750,
+     "year": 15721,
      "series": [
-      929,
-      626,
-      1009,
-      1363,
-      1131,
-      1017,
-      1354,
-      1382,
-      1157,
-      1180,
-      2627,
-      1873
+      926,
+      618,
+      1004,
+      1414,
+      1100,
+      996,
+      1406,
+      1378,
+      1129,
+      1178,
+      2714,
+      1858
      ],
-     "fetched_at": "2026-11-12T23:40:39Z"
+     "fetched_at": "2026-11-13T23:36:55Z"
     },
     "hn": {
-     "ratio": 1.2311,
+     "ratio": 1.258,
      "series": [
       0.02202,
       0.03483,
@@ -694,25 +715,25 @@
       0.03523,
       0.03608,
       0.04439,
-      0.04046
+      0.04432
      ],
-     "last90_mentions": 45
+     "last90_mentions": 47
     },
     "github": {
-     "ratio": 1.5803,
+     "ratio": 1.5886,
      "series": [
       201,
       134,
-      211,
-      313,
+      273,
+      251,
       179,
       261,
       288,
       228,
       301,
-      278,
-      531,
-      573
+      354,
+      455,
+      585
      ],
      "repos": [
       "huggingface/lerobot",
